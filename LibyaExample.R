@@ -38,6 +38,6 @@ plot_events_for_location <- function(loc_idx) {
     geom_point(data=close_events, aes(x=lon, y=lat),size=1, color="green") + 
     geom_point(data=locs[loc_idx,], aes(x=lon, y=lat),size=2, color="blue")
 }
-
+# toggle num to view for any of the 2000 locations
 plot_events_for_location(52)
 
