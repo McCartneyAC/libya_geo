@@ -1,0 +1,1501 @@
+2017-10-10T21:58:09.617932+00:00 shinyapps[223108]: htmltools version: 0.3.6
+2017-10-10T21:58:11.060315+00:00 shinyapps[223108]: Loading tidyverse: ggplot2
+2017-10-10T21:58:11.060317+00:00 shinyapps[223108]: Loading tidyverse: tibble
+2017-10-10T21:58:11.060318+00:00 shinyapps[223108]: Loading tidyverse: tidyr
+2017-10-10T21:58:11.060318+00:00 shinyapps[223108]: Loading tidyverse: readr
+2017-10-10T21:58:11.060319+00:00 shinyapps[223108]: Loading tidyverse: purrr
+2017-10-10T21:58:11.060319+00:00 shinyapps[223108]: Loading tidyverse: dplyr
+2017-10-10T21:58:11.192551+00:00 shinyapps[223108]: Conflicts with tidy packages ---------------------------------------------------
+2017-10-10T21:58:11.193118+00:00 shinyapps[223108]: filter(): dplyr, stats
+2017-10-10T21:58:11.193120+00:00 shinyapps[223108]: lag():    dplyr, stats
+2017-10-10T23:35:00.323923+00:00 shinyapps[223108]: 
+2017-10-10T23:35:00.323925+00:00 shinyapps[223108]: Starting R with process ID: '18'
+2017-10-10T23:35:01.234668+00:00 shinyapps[223108]: Loading tidyverse: ggplot2
+2017-10-10T23:35:01.234671+00:00 shinyapps[223108]: Loading tidyverse: tibble
+2017-10-10T23:35:01.234671+00:00 shinyapps[223108]: Loading tidyverse: tidyr
+2017-10-10T23:35:01.234672+00:00 shinyapps[223108]: Loading tidyverse: readr
+2017-10-10T23:35:01.234672+00:00 shinyapps[223108]: Loading tidyverse: purrr
+2017-10-10T23:35:01.234673+00:00 shinyapps[223108]: Loading tidyverse: dplyr
+2017-10-10T23:35:01.358128+00:00 shinyapps[223108]: Conflicts with tidy packages ---------------------------------------------------
+2017-10-10T23:35:01.358668+00:00 shinyapps[223108]: filter(): dplyr, stats
+2017-10-10T23:35:01.358669+00:00 shinyapps[223108]: lag():    dplyr, stats
+2017-10-10T23:39:00.840818+00:00 shinyapps[223108]: Server version: 1.5.6-3
+2017-10-10T23:39:00.840856+00:00 shinyapps[223108]: R version: 3.4.1
+2017-10-10T23:39:00.840858+00:00 shinyapps[223108]: shiny version: 1.0.5
+2017-10-10T23:39:00.840855+00:00 shinyapps[223108]: LANG: en_US.UTF-8
+2017-10-10T23:39:00.840859+00:00 shinyapps[223108]: jsonlite version: 1.5
+2017-10-10T23:39:00.840859+00:00 shinyapps[223108]: knitr version: NA
+2017-10-10T23:39:00.840858+00:00 shinyapps[223108]: rmarkdown version: NA
+2017-10-10T23:39:00.840860+00:00 shinyapps[223108]: htmltools version: 0.3.6
+2017-10-10T23:39:00.840859+00:00 shinyapps[223108]: RJSONIO version: 1.3.0
+2017-10-10T23:39:00.971872+00:00 shinyapps[223108]: Using jsonlite for JSON processing
+2017-10-10T23:39:01.068578+00:00 shinyapps[223108]: 
+2017-10-10T23:39:01.068582+00:00 shinyapps[223108]: Starting R with process ID: '37'
+2017-10-10T23:39:01.603891+00:00 shinyapps[223108]: Loading tidyverse: ggplot2
+2017-10-10T23:39:01.603895+00:00 shinyapps[223108]: Loading tidyverse: tibble
+2017-10-10T23:39:01.603896+00:00 shinyapps[223108]: Loading tidyverse: readr
+2017-10-10T23:39:01.603897+00:00 shinyapps[223108]: Loading tidyverse: purrr
+2017-10-10T23:39:01.603896+00:00 shinyapps[223108]: Loading tidyverse: tidyr
+2017-10-10T23:39:01.603897+00:00 shinyapps[223108]: Loading tidyverse: dplyr
+2017-10-10T23:39:01.723913+00:00 shinyapps[223108]: Conflicts with tidy packages ---------------------------------------------------
+2017-10-10T23:39:01.724416+00:00 shinyapps[223108]: filter(): dplyr, stats
+2017-10-10T23:39:01.724418+00:00 shinyapps[223108]: lag():    dplyr, stats
+2017-10-10T23:39:01.938952+00:00 shinyapps[223108]: 
+2017-10-10T23:39:01.938956+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-10T23:39:01.938957+00:00 shinyapps[223108]: 
+2017-10-10T23:39:01.939636+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-10T23:39:01.939638+00:00 shinyapps[223108]: 
+2017-10-10T23:39:01.939638+00:00 shinyapps[223108]:     date
+2017-10-10T23:39:01.939639+00:00 shinyapps[223108]: 
+2017-10-10T23:39:01.957136+00:00 shinyapps[223108]: 
+2017-10-10T23:39:01.957138+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-10T23:39:01.957138+00:00 shinyapps[223108]: 
+2017-10-10T23:39:01.957397+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-10T23:39:01.957398+00:00 shinyapps[223108]: 
+2017-10-10T23:39:01.957399+00:00 shinyapps[223108]:     serverInfo
+2017-10-10T23:39:01.957400+00:00 shinyapps[223108]: 
+2017-10-10T23:39:02.010557+00:00 shinyapps[223108]: 
+2017-10-10T23:39:02.010559+00:00 shinyapps[223108]: Listening on http://127.0.0.1:37030
+2017-10-11T05:14:13.113786+00:00 shinyapps[223108]: Server version: 1.5.6-3
+2017-10-11T05:14:13.113806+00:00 shinyapps[223108]: LANG: en_US.UTF-8
+2017-10-11T05:14:13.113808+00:00 shinyapps[223108]: R version: 3.4.1
+2017-10-11T05:14:13.113821+00:00 shinyapps[223108]: rmarkdown version: NA
+2017-10-11T05:14:13.113810+00:00 shinyapps[223108]: shiny version: 1.0.5
+2017-10-11T05:14:13.113834+00:00 shinyapps[223108]: jsonlite version: 1.5
+2017-10-11T05:14:13.113821+00:00 shinyapps[223108]: knitr version: NA
+2017-10-11T05:14:13.113858+00:00 shinyapps[223108]: htmltools version: 0.3.6
+2017-10-11T05:14:13.113838+00:00 shinyapps[223108]: RJSONIO version: 1.3.0
+2017-10-11T05:14:13.332237+00:00 shinyapps[223108]: Using jsonlite for JSON processing
+2017-10-11T05:14:13.425735+00:00 shinyapps[223108]: 
+2017-10-11T05:14:13.425738+00:00 shinyapps[223108]: Starting R with process ID: '18'
+2017-10-11T05:14:14.974972+00:00 shinyapps[223108]: 
+2017-10-11T05:14:14.974976+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-11T05:14:14.974977+00:00 shinyapps[223108]: 
+2017-10-11T05:14:14.975651+00:00 shinyapps[223108]: 
+2017-10-11T05:14:14.975650+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-11T05:14:14.975652+00:00 shinyapps[223108]:     date
+2017-10-11T05:14:14.975652+00:00 shinyapps[223108]: 
+2017-10-11T05:14:15.011020+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-11T05:14:15.011019+00:00 shinyapps[223108]: 
+2017-10-11T05:14:15.011272+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-11T05:14:15.011272+00:00 shinyapps[223108]: 
+2017-10-11T05:14:15.011021+00:00 shinyapps[223108]: 
+2017-10-11T05:14:15.011273+00:00 shinyapps[223108]:     serverInfo
+2017-10-11T05:14:15.072684+00:00 shinyapps[223108]: 
+2017-10-11T05:14:15.011273+00:00 shinyapps[223108]: 
+2017-10-11T05:14:15.072686+00:00 shinyapps[223108]: Listening on http://127.0.0.1:40174
+2017-10-11T05:14:23.767944+00:00 shinyapps[223108]: Parsed with column specification:
+2017-10-11T05:14:23.767948+00:00 shinyapps[223108]: cols(
+2017-10-11T05:14:23.767949+00:00 shinyapps[223108]:   .default = col_character(),
+2017-10-11T05:14:23.767952+00:00 shinyapps[223108]:   LONGITUDE = col_double(),
+2017-10-11T05:14:23.767953+00:00 shinyapps[223108]:   GEO_PRECISION = col_integer(),
+2017-10-11T05:14:23.767953+00:00 shinyapps[223108]:   FATALITIES = col_integer()
+2017-10-11T05:14:23.767954+00:00 shinyapps[223108]: )
+2017-10-11T05:14:23.768114+00:00 shinyapps[223108]: See spec(...) for full column specifications.
+2017-10-11T05:14:23.975770+00:00 shinyapps[223108]: Warning in rbind(names(probs), probs_f) :
+2017-10-11T05:14:23.975773+00:00 shinyapps[223108]:   number of columns of result is not a multiple of vector length (arg 2)
+2017-10-11T05:14:23.976336+00:00 shinyapps[223108]: Warning: 1 parsing failure.
+2017-10-11T05:14:23.976338+00:00 shinyapps[223108]: row # A tibble: 1 x 5 col     row       col expected          actual        file expected   <int>     <chr>    <chr>           <chr>       <chr> actual 1 13194 LONGITUDE a double "\xa0-13.57806" 'ACLED.csv' file # A tibble: 1 x 5
+2017-10-11T05:14:23.976339+00:00 shinyapps[223108]: 
+2017-10-11T05:14:23.767949+00:00 shinyapps[223108]:   GWNO = col_integer(),
+2017-10-11T05:14:23.767950+00:00 shinyapps[223108]:   YEAR = col_integer(),
+2017-10-11T05:14:23.767950+00:00 shinyapps[223108]:   TIME_PRECISION = col_integer(),
+2017-10-11T05:14:23.767951+00:00 shinyapps[223108]:   INTER1 = col_integer(),
+2017-10-11T05:14:23.767951+00:00 shinyapps[223108]:   INTER2 = col_integer(),
+2017-10-11T05:14:23.767952+00:00 shinyapps[223108]:   LATITUDE = col_double(),
+2017-10-11T05:14:23.767952+00:00 shinyapps[223108]:   INTERACTION = col_integer(),
+2017-10-11T05:14:27.341151+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=Central%20African%20Republic&sensor=false
+2017-10-11T05:14:28.106344+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/6.png
+2017-10-11T05:14:28.332795+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/6.png
+2017-10-11T05:14:28.776166+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/7.png
+2017-10-11T05:14:28.925347+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/7.png
+2017-10-11T05:14:29.222186+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/7.png
+2017-10-11T05:14:29.074817+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/7.png
+2017-10-11T05:14:29.661649+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/8.png
+2017-10-11T05:14:29.806200+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/8.png
+2017-10-11T05:14:30.405382+00:00 shinyapps[223108]: Warning: Removed 255 rows containing non-finite values (stat_density2d).
+2017-10-11T05:14:37.898535+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-11T05:14:37.898532+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-11T05:14:38.126325+00:00 shinyapps[223108]: Warning: Removed 1288 rows containing non-finite values (stat_density2d).
+2017-10-11T05:14:38.969135+00:00 shinyapps[223108]: Warning: Removed 2350 rows containing non-finite values (stat_density2d).
+2017-10-11T05:14:43.395260+00:00 shinyapps[223108]: Warning: Removed 89 rows containing non-finite values (stat_density2d).
+2017-10-11T05:16:23.700073+00:00 shinyapps[223108]: Warning: Removed 89 rows containing missing values (geom_point).
+2017-10-11T05:16:54.528136+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-11T05:16:54.528138+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-11T05:16:54.611940+00:00 shinyapps[223108]: Warning: Removed 39 rows containing missing values (geom_point).
+2017-10-11T05:16:55.520448+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-11T05:16:55.520452+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-11T05:16:55.603827+00:00 shinyapps[223108]: Warning: Removed 77 rows containing missing values (geom_point).
+2017-10-11T05:16:56.314283+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-11T05:16:56.314286+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-11T05:16:56.397589+00:00 shinyapps[223108]: Warning: Removed 74 rows containing missing values (geom_point).
+2017-10-11T05:17:01.318835+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-11T05:17:01.318838+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-11T05:17:01.405261+00:00 shinyapps[223108]: Warning: Removed 6 rows containing missing values (geom_point).
+2017-10-11T05:19:23.912434+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=South%20Sudan&sensor=false
+2017-10-11T05:19:24.698698+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/6.png
+2017-10-11T05:19:24.718201+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-11T05:19:24.718204+00:00 shinyapps[223108]:   cannot remove file '2ec9be41d9851038d6baa550b28c3ae7.rds', reason 'No such file or directory'
+2017-10-11T05:19:24.860640+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/6.png
+2017-10-11T05:19:24.891736+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-11T05:19:24.891739+00:00 shinyapps[223108]:   cannot remove file 'c0af4aaba88f1af64c16b713ccef9757.rds', reason 'No such file or directory'
+2017-10-11T05:19:25.320951+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-11T05:19:25.463533+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/7.png
+2017-10-11T05:19:25.320954+00:00 shinyapps[223108]:   cannot remove file '4156152059dd4ce2318c04476d82a18b.rds', reason 'No such file or directory'
+2017-10-11T05:19:25.482983+00:00 shinyapps[223108]:   cannot remove file '956e666df61367aa4057df1d9e663912.rds', reason 'No such file or directory'
+2017-10-11T05:19:25.482980+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-11T05:19:25.623103+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/7.png
+2017-10-11T05:19:25.641903+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-11T05:19:25.641909+00:00 shinyapps[223108]:   cannot remove file '93001c40404afadefd21cdc053d25187.rds', reason 'No such file or directory'
+2017-10-11T05:19:25.786897+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/8.png
+2017-10-11T05:19:25.805831+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-11T05:19:25.805834+00:00 shinyapps[223108]:   cannot remove file '3a21f1ec36e17dc8994ca1653b6a9337.rds', reason 'No such file or directory'
+2017-10-11T05:19:26.435239+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-11T05:19:26.435243+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-11T05:19:26.515969+00:00 shinyapps[223108]: Warning: Removed 3 rows containing missing values (geom_point).
+2017-10-11T05:19:32.146277+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=South+Sudan&zoom=6&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-11T05:19:33.095397+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/36/29.png
+2017-10-11T05:19:33.248795+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/37/29.png
+2017-10-11T05:19:33.497572+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/38/29.png
+2017-10-11T05:19:33.642965+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/36/30.png
+2017-10-11T05:19:34.077964+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/36/31.png
+2017-10-11T05:19:34.222030+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/37/31.png
+2017-10-11T05:19:34.375945+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/38/31.png
+2017-10-11T05:19:34.520490+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/36/32.png
+2017-10-11T05:19:35.301368+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-11T05:19:35.301371+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-11T05:19:35.383876+00:00 shinyapps[223108]: Warning: Removed 98 rows containing missing values (geom_point).
+2017-10-11T05:19:42.333173+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-11T05:19:42.333176+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-11T05:19:42.411927+00:00 shinyapps[223108]: Warning: Removed 625 rows containing missing values (geom_point).
+2017-10-11T05:19:47.139908+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-11T05:19:47.139910+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-11T05:19:47.222836+00:00 shinyapps[223108]: Warning: Removed 857 rows containing missing values (geom_point).
+2017-10-11T05:19:48.118300+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-11T05:19:48.118302+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-11T05:19:48.198295+00:00 shinyapps[223108]: Warning: Removed 639 rows containing missing values (geom_point).
+2017-10-11T05:19:52.268012+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-11T05:19:52.351836+00:00 shinyapps[223108]: Warning: Removed 831 rows containing missing values (geom_point).
+2017-10-11T05:19:52.268014+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-11T05:19:55.733935+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-11T05:19:55.733937+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-11T05:19:55.822629+00:00 shinyapps[223108]: Warning: Removed 1649 rows containing missing values (geom_point).
+2017-10-11T05:21:59.472428+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-11T05:21:59.472431+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-11T05:21:59.563878+00:00 shinyapps[223108]: Warning: Removed 1649 rows containing missing values (geom_point).
+2017-10-11T05:22:00.423575+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-11T05:22:00.511514+00:00 shinyapps[223108]: Warning: Removed 857 rows containing missing values (geom_point).
+2017-10-11T05:22:00.423570+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-11T05:22:02.113497+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-11T05:22:02.113500+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-11T05:22:02.216700+00:00 shinyapps[223108]: Warning: Removed 1254 rows containing missing values (geom_point).
+2017-10-11T05:22:02.986578+00:00 shinyapps[223108]: Warning: Error in filter_impl: Result must have length 13223, not 0
+2017-10-11T05:22:02.992001+00:00 shinyapps[223108]: Stack trace (innermost first):
+2017-10-11T05:22:02.992004+00:00 shinyapps[223108]:     119: <Anonymous>
+2017-10-11T05:22:02.992043+00:00 shinyapps[223108]:     117: filter_impl
+2017-10-11T05:22:02.992041+00:00 shinyapps[223108]:     118: stop
+2017-10-11T05:22:02.992044+00:00 shinyapps[223108]:     116: filter.tbl_df
+2017-10-11T05:22:02.992045+00:00 shinyapps[223108]:     114: fortify
+2017-10-11T05:22:02.992044+00:00 shinyapps[223108]:     115: filter
+2017-10-11T05:22:02.992046+00:00 shinyapps[223108]:     112: geom_point
+2017-10-11T05:22:02.992047+00:00 shinyapps[223108]:     111: renderPlot [/srv/connect/apps/africanconflictapp/app.R#86]
+2017-10-11T05:22:02.992045+00:00 shinyapps[223108]:     113: layer
+2017-10-11T05:22:02.992047+00:00 shinyapps[223108]:     101: <reactive:plotObj>
+2017-10-11T05:22:02.992048+00:00 shinyapps[223108]:      88: output$africa
+2017-10-11T05:22:02.992047+00:00 shinyapps[223108]:      90: plotObj
+2017-10-11T05:22:02.992048+00:00 shinyapps[223108]:      89: origRenderFunc
+2017-10-11T05:22:02.992048+00:00 shinyapps[223108]:      13: runApp
+2017-10-11T05:22:02.992051+00:00 shinyapps[223108]:      11: doTryCatch
+2017-10-11T05:22:02.992049+00:00 shinyapps[223108]:      12: fn
+2017-10-11T05:22:02.992065+00:00 shinyapps[223108]:       9: tryCatchList
+2017-10-11T05:22:02.992065+00:00 shinyapps[223108]:       8: tryCatch
+2017-10-11T05:22:02.992065+00:00 shinyapps[223108]:       7: connect$retry
+2017-10-11T05:22:02.992051+00:00 shinyapps[223108]:      10: tryCatchOne
+2017-10-11T05:22:02.992065+00:00 shinyapps[223108]:       6: eval
+2017-10-11T05:22:02.992066+00:00 shinyapps[223108]:       4: eval
+2017-10-11T05:22:02.992066+00:00 shinyapps[223108]:       5: eval
+2017-10-11T05:22:02.992067+00:00 shinyapps[223108]:       3: eval
+2017-10-11T05:22:02.992067+00:00 shinyapps[223108]:       1: local
+2017-10-11T05:22:02.992067+00:00 shinyapps[223108]:       2: eval.parent
+2017-10-11T05:22:54.549817+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=South+Sudan&zoom=4&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-11T05:22:57.263629+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=South%20Sudan&sensor=false
+2017-10-11T05:22:57.871230+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/6.png
+2017-10-11T05:22:57.890281+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-11T05:22:57.890282+00:00 shinyapps[223108]:   cannot remove file '6b963b4a5ae046d61c438da891683438.rds', reason 'No such file or directory'
+2017-10-11T05:22:58.031918+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/7.png
+2017-10-11T05:22:58.050970+00:00 shinyapps[223108]:   cannot remove file '4156152059dd4ce2318c04476d82a18b.rds', reason 'No such file or directory'
+2017-10-11T05:22:58.050967+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-11T05:22:58.192965+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/7.png
+2017-10-11T05:22:58.211762+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-11T05:22:58.211764+00:00 shinyapps[223108]:   cannot remove file '956e666df61367aa4057df1d9e663912.rds', reason 'No such file or directory'
+2017-10-11T05:22:58.351739+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/7.png
+2017-10-11T05:22:58.370047+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-11T05:22:58.370048+00:00 shinyapps[223108]:   cannot remove file '93001c40404afadefd21cdc053d25187.rds', reason 'No such file or directory'
+2017-10-11T05:22:58.839691+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/8.png
+2017-10-11T05:22:58.857817+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-11T05:22:58.857819+00:00 shinyapps[223108]:   cannot remove file '3d35492e2515ec2057fec27a9c17e811.rds', reason 'No such file or directory'
+2017-10-11T05:22:59.209624+00:00 shinyapps[223108]: Warning: Removed 365 rows containing missing values (geom_point).
+2017-10-11T05:23:01.057296+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=South%20Sudan&sensor=false
+2017-10-11T05:23:01.473110+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/3/4/2.png
+2017-10-11T05:23:01.329313+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/3/3/2.png
+2017-10-11T05:23:01.909311+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/3/4/3.png
+2017-10-11T05:23:02.056724+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/3/5/3.png
+2017-10-11T05:23:02.200943+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/3/3/4.png
+2017-10-11T05:23:02.343767+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/3/4/4.png
+2017-10-11T05:23:02.780247+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/3/4/5.png
+2017-10-11T05:23:02.921271+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/3/5/5.png
+2017-10-11T13:14:01.848905+00:00 shinyapps[223108]: Server version: 1.5.6-3
+2017-10-11T13:14:01.848951+00:00 shinyapps[223108]: LANG: en_US.UTF-8
+2017-10-11T13:14:01.848953+00:00 shinyapps[223108]: R version: 3.4.1
+2017-10-11T13:14:01.848955+00:00 shinyapps[223108]: shiny version: 1.0.5
+2017-10-11T13:14:01.848956+00:00 shinyapps[223108]: rmarkdown version: NA
+2017-10-11T13:14:01.848956+00:00 shinyapps[223108]: knitr version: NA
+2017-10-11T13:14:01.848956+00:00 shinyapps[223108]: jsonlite version: 1.5
+2017-10-11T13:14:01.848956+00:00 shinyapps[223108]: RJSONIO version: 1.3.0
+2017-10-11T13:14:01.848957+00:00 shinyapps[223108]: htmltools version: 0.3.6
+2017-10-11T13:14:03.390281+00:00 shinyapps[223108]: Loading tidyverse: tibble
+2017-10-11T13:14:03.390279+00:00 shinyapps[223108]: Loading tidyverse: ggplot2
+2017-10-11T13:14:03.390282+00:00 shinyapps[223108]: Loading tidyverse: tidyr
+2017-10-11T13:14:03.390282+00:00 shinyapps[223108]: Loading tidyverse: readr
+2017-10-11T13:14:03.390283+00:00 shinyapps[223108]: Loading tidyverse: purrr
+2017-10-11T13:14:03.516671+00:00 shinyapps[223108]: Conflicts with tidy packages ---------------------------------------------------
+2017-10-11T13:14:03.517256+00:00 shinyapps[223108]: lag():    dplyr, stats
+2017-10-11T13:14:03.390283+00:00 shinyapps[223108]: Loading tidyverse: dplyr
+2017-10-11T13:14:03.517254+00:00 shinyapps[223108]: filter(): dplyr, stats
+2017-10-11T13:14:22.883001+00:00 shinyapps[223108]: Loading tidyverse: ggplot2
+2017-10-11T13:14:22.883016+00:00 shinyapps[223108]: Loading tidyverse: tibble
+2017-10-11T13:14:22.883016+00:00 shinyapps[223108]: Loading tidyverse: tidyr
+2017-10-11T13:14:22.883017+00:00 shinyapps[223108]: Loading tidyverse: readr
+2017-10-11T13:14:22.883017+00:00 shinyapps[223108]: Loading tidyverse: purrr
+2017-10-11T13:14:22.883018+00:00 shinyapps[223108]: Loading tidyverse: dplyr
+2017-10-11T13:14:23.010822+00:00 shinyapps[223108]: Conflicts with tidy packages ---------------------------------------------------
+2017-10-11T13:14:23.011397+00:00 shinyapps[223108]: lag():    dplyr, stats
+2017-10-11T13:14:23.011395+00:00 shinyapps[223108]: filter(): dplyr, stats
+2017-10-11T13:14:23.247248+00:00 shinyapps[223108]: 
+2017-10-11T13:14:23.247270+00:00 shinyapps[223108]: 
+2017-10-11T13:14:23.247269+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-11T13:14:23.247941+00:00 shinyapps[223108]: 
+2017-10-11T13:14:23.247940+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-11T13:14:23.247943+00:00 shinyapps[223108]: 
+2017-10-11T13:14:23.266136+00:00 shinyapps[223108]: 
+2017-10-11T13:14:23.247942+00:00 shinyapps[223108]:     date
+2017-10-11T13:14:23.266141+00:00 shinyapps[223108]: 
+2017-10-11T13:14:23.266405+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-11T13:14:23.266139+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-11T13:14:23.266407+00:00 shinyapps[223108]: 
+2017-10-11T13:14:23.266408+00:00 shinyapps[223108]:     serverInfo
+2017-10-11T13:14:23.266408+00:00 shinyapps[223108]: 
+2017-10-11T13:14:23.321517+00:00 shinyapps[223108]: 
+2017-10-11T13:14:23.321520+00:00 shinyapps[223108]: Listening on http://127.0.0.1:42521
+2017-10-11T13:14:33.199449+00:00 shinyapps[223108]: Parsed with column specification:
+2017-10-11T13:14:33.199459+00:00 shinyapps[223108]:   GWNO = col_integer(),
+2017-10-11T13:14:33.199459+00:00 shinyapps[223108]:   YEAR = col_integer(),
+2017-10-11T13:14:33.199460+00:00 shinyapps[223108]:   INTER1 = col_integer(),
+2017-10-11T13:14:33.199459+00:00 shinyapps[223108]:   TIME_PRECISION = col_integer(),
+2017-10-11T13:14:33.199456+00:00 shinyapps[223108]: cols(
+2017-10-11T13:14:33.199460+00:00 shinyapps[223108]:   INTER2 = col_integer(),
+2017-10-11T13:14:33.199461+00:00 shinyapps[223108]:   INTERACTION = col_integer(),
+2017-10-11T13:14:33.199461+00:00 shinyapps[223108]:   LATITUDE = col_double(),
+2017-10-11T13:14:33.199458+00:00 shinyapps[223108]:   .default = col_character(),
+2017-10-11T13:14:33.199461+00:00 shinyapps[223108]:   LONGITUDE = col_double(),
+2017-10-11T13:14:33.199462+00:00 shinyapps[223108]:   GEO_PRECISION = col_integer(),
+2017-10-11T13:14:33.199462+00:00 shinyapps[223108]:   FATALITIES = col_integer()
+2017-10-11T13:14:33.199463+00:00 shinyapps[223108]: )
+2017-10-11T13:14:33.199624+00:00 shinyapps[223108]: See spec(...) for full column specifications.
+2017-10-11T13:14:33.392171+00:00 shinyapps[223108]: Warning in rbind(names(probs), probs_f) :
+2017-10-11T13:14:33.392175+00:00 shinyapps[223108]:   number of columns of result is not a multiple of vector length (arg 2)
+2017-10-11T13:14:33.392732+00:00 shinyapps[223108]: Warning: 1 parsing failure.
+2017-10-11T13:14:33.392739+00:00 shinyapps[223108]: row # A tibble: 1 x 5 col     row       col expected          actual        file expected   <int>     <chr>    <chr>           <chr>       <chr> actual 1 13194 LONGITUDE a double "\xa0-13.57806" 'ACLED.csv' file # A tibble: 1 x 5
+2017-10-11T13:14:33.392739+00:00 shinyapps[223108]: 
+2017-10-11T13:14:37.193468+00:00 shinyapps[223108]: Warning: geocode failed with status OVER_QUERY_LIMIT, location = "Central African Republic"
+2017-10-11T13:14:37.039567+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=Central%20African%20Republic&sensor=false
+2017-10-11T13:14:37.246641+00:00 shinyapps[223108]:     111: renderPlot [/srv/connect/apps/africanconflictapp/app.R#86]
+2017-10-11T13:14:37.246642+00:00 shinyapps[223108]:     101: <reactive:plotObj>
+2017-10-11T13:14:37.246642+00:00 shinyapps[223108]:      90: plotObj
+2017-10-11T13:14:37.246642+00:00 shinyapps[223108]:      89: origRenderFunc
+2017-10-11T13:14:37.246643+00:00 shinyapps[223108]:      88: output$africa
+2017-10-11T13:14:37.246643+00:00 shinyapps[223108]:      13: runApp
+2017-10-11T13:14:37.246643+00:00 shinyapps[223108]:      12: fn
+2017-10-11T13:14:37.246644+00:00 shinyapps[223108]:      11: doTryCatch
+2017-10-11T13:14:37.246644+00:00 shinyapps[223108]:      10: tryCatchOne
+2017-10-11T13:14:37.246645+00:00 shinyapps[223108]:       9: tryCatchList
+2017-10-11T13:14:37.246635+00:00 shinyapps[223108]: Stack trace (innermost first):
+2017-10-11T13:14:37.246646+00:00 shinyapps[223108]:       6: eval
+2017-10-11T13:14:37.242094+00:00 shinyapps[223108]: Warning: Error in data.frame: arguments imply differing number of rows: 0, 1
+2017-10-11T13:14:37.246645+00:00 shinyapps[223108]:       8: tryCatch
+2017-10-11T13:14:37.246638+00:00 shinyapps[223108]:     126: get_googlemap
+2017-10-11T13:14:37.246646+00:00 shinyapps[223108]:       4: eval
+2017-10-11T13:14:37.246636+00:00 shinyapps[223108]:     127: data.frame
+2017-10-11T13:14:37.246646+00:00 shinyapps[223108]:       5: eval
+2017-10-11T13:14:37.246638+00:00 shinyapps[223108]:     125: get_map
+2017-10-11T13:14:37.246647+00:00 shinyapps[223108]:       3: eval
+2017-10-11T13:14:37.246640+00:00 shinyapps[223108]:     113: map
+2017-10-11T13:14:37.246647+00:00 shinyapps[223108]:       1: local
+2017-10-11T13:14:37.246640+00:00 shinyapps[223108]:     124: <reactive:map> [/srv/connect/apps/africanconflictapp/app.R#61]
+2017-10-11T13:14:37.246647+00:00 shinyapps[223108]:       2: eval.parent
+2017-10-11T13:14:37.246641+00:00 shinyapps[223108]:     112: ggmap
+2017-10-11T13:14:37.246646+00:00 shinyapps[223108]:       7: connect$retry
+2017-10-11T13:19:30.516286+00:00 shinyapps[223108]: Loading tidyverse: tibble
+2017-10-11T13:19:30.516287+00:00 shinyapps[223108]: Loading tidyverse: tidyr
+2017-10-11T13:19:30.516283+00:00 shinyapps[223108]: Loading tidyverse: ggplot2
+2017-10-11T13:19:30.516288+00:00 shinyapps[223108]: Loading tidyverse: readr
+2017-10-11T13:19:30.516288+00:00 shinyapps[223108]: Loading tidyverse: purrr
+2017-10-11T13:19:30.643303+00:00 shinyapps[223108]: Conflicts with tidy packages ---------------------------------------------------
+2017-10-11T13:19:30.643840+00:00 shinyapps[223108]: filter(): dplyr, stats
+2017-10-11T13:19:30.516288+00:00 shinyapps[223108]: Loading tidyverse: dplyr
+2017-10-11T13:19:30.643841+00:00 shinyapps[223108]: lag():    dplyr, stats
+2017-10-11T13:19:30.871859+00:00 shinyapps[223108]: 
+2017-10-11T13:19:30.871862+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-11T13:19:30.871863+00:00 shinyapps[223108]: 
+2017-10-11T13:19:30.872557+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-11T13:19:30.872559+00:00 shinyapps[223108]: 
+2017-10-11T13:19:30.872560+00:00 shinyapps[223108]:     date
+2017-10-11T13:19:30.872560+00:00 shinyapps[223108]: 
+2017-10-11T13:19:30.890201+00:00 shinyapps[223108]: 
+2017-10-11T13:19:30.890203+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-11T13:19:30.890203+00:00 shinyapps[223108]: 
+2017-10-11T13:19:30.890488+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-11T13:19:30.890489+00:00 shinyapps[223108]: 
+2017-10-11T13:19:30.890490+00:00 shinyapps[223108]:     serverInfo
+2017-10-11T13:19:30.890490+00:00 shinyapps[223108]: 
+2017-10-11T13:19:30.943406+00:00 shinyapps[223108]: 
+2017-10-11T13:19:30.943409+00:00 shinyapps[223108]: Listening on http://127.0.0.1:46354
+2017-10-11T13:19:34.081942+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=Central+African+Republic&zoom=4&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-11T13:19:38.125713+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/6.png
+2017-10-11T13:19:38.353203+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/6.png
+2017-10-11T13:19:38.498462+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/6.png
+2017-10-11T13:19:38.647388+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/6.png
+2017-10-11T13:19:38.797910+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/7.png
+2017-10-11T13:19:38.946523+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/7.png
+2017-10-11T13:19:39.183323+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/7.png
+2017-10-11T13:19:39.331256+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/7.png
+2017-10-11T13:19:39.481869+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/8.png
+2017-10-11T13:19:39.623655+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/8.png
+2017-10-11T13:19:40.528949+00:00 shinyapps[223108]: Warning: Removed 255 rows containing non-finite values (stat_density2d).
+2017-10-11T22:07:58.061685+00:00 shinyapps[223108]: Server version: 1.5.6-3
+2017-10-11T22:07:58.061717+00:00 shinyapps[223108]: LANG: en_US.UTF-8
+2017-10-11T22:07:58.061719+00:00 shinyapps[223108]: R version: 3.4.1
+2017-10-11T22:07:58.061721+00:00 shinyapps[223108]: shiny version: 1.0.5
+2017-10-11T22:07:58.061721+00:00 shinyapps[223108]: rmarkdown version: NA
+2017-10-11T22:07:58.061722+00:00 shinyapps[223108]: knitr version: NA
+2017-10-11T22:07:58.061722+00:00 shinyapps[223108]: jsonlite version: 1.5
+2017-10-11T22:07:58.061722+00:00 shinyapps[223108]: RJSONIO version: 1.3.0
+2017-10-11T22:07:58.061739+00:00 shinyapps[223108]: htmltools version: 0.3.6
+2017-10-11T22:07:59.620490+00:00 shinyapps[223108]: Loading tidyverse: ggplot2
+2017-10-11T22:07:59.620493+00:00 shinyapps[223108]: Loading tidyverse: tibble
+2017-10-11T22:07:59.620493+00:00 shinyapps[223108]: Loading tidyverse: tidyr
+2017-10-11T22:07:59.620494+00:00 shinyapps[223108]: Loading tidyverse: purrr
+2017-10-11T22:07:59.620494+00:00 shinyapps[223108]: Loading tidyverse: readr
+2017-10-11T22:07:59.620495+00:00 shinyapps[223108]: Loading tidyverse: dplyr
+2017-10-11T22:07:59.773838+00:00 shinyapps[223108]: filter(): dplyr, stats
+2017-10-11T22:07:59.773233+00:00 shinyapps[223108]: Conflicts with tidy packages ---------------------------------------------------
+2017-10-11T22:07:59.773840+00:00 shinyapps[223108]: lag():    dplyr, stats
+2017-10-11T22:08:00.262248+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-11T22:08:00.262244+00:00 shinyapps[223108]: 
+2017-10-11T22:08:00.263238+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-11T22:08:00.262249+00:00 shinyapps[223108]: 
+2017-10-11T22:08:00.263240+00:00 shinyapps[223108]: 
+2017-10-11T22:08:00.263241+00:00 shinyapps[223108]:     date
+2017-10-11T22:08:00.263241+00:00 shinyapps[223108]: 
+2017-10-11T22:08:00.311083+00:00 shinyapps[223108]: 
+2017-10-11T22:08:00.311081+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-11T22:08:00.310801+00:00 shinyapps[223108]: 
+2017-10-11T22:08:00.310804+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-11T22:08:00.310805+00:00 shinyapps[223108]: 
+2017-10-11T22:08:00.311084+00:00 shinyapps[223108]: 
+2017-10-11T22:08:00.311084+00:00 shinyapps[223108]:     serverInfo
+2017-10-11T22:08:00.374672+00:00 shinyapps[223108]: 
+2017-10-11T22:08:00.374676+00:00 shinyapps[223108]: Listening on http://127.0.0.1:34695
+2017-10-11T22:08:13.273019+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=Central%20African%20Republic&sensor=false
+2017-10-11T22:08:14.043606+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/6.png
+2017-10-11T22:08:14.276332+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/6.png
+2017-10-11T22:08:14.783666+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/7.png
+2017-10-11T22:08:14.933668+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/7.png
+2017-10-11T22:08:15.085649+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/7.png
+2017-10-11T22:08:15.235226+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/7.png
+2017-10-11T22:08:15.678175+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/8.png
+2017-10-11T22:08:15.824278+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/8.png
+2017-10-11T22:08:16.468870+00:00 shinyapps[223108]: Warning: Removed 255 rows containing non-finite values (stat_density2d).
+2017-10-11T22:37:00.810761+00:00 shinyapps[223108]: R version: 3.4.1
+2017-10-11T22:37:01.059340+00:00 shinyapps[223108]: 
+2017-10-11T22:37:01.059344+00:00 shinyapps[223108]: Starting R with process ID: '65'
+2017-10-11T22:37:00.810728+00:00 shinyapps[223108]: Server version: 1.5.6-3
+2017-10-11T22:37:00.810771+00:00 shinyapps[223108]: rmarkdown version: NA
+2017-10-11T22:37:00.810757+00:00 shinyapps[223108]: LANG: en_US.UTF-8
+2017-10-11T22:37:00.810773+00:00 shinyapps[223108]: jsonlite version: 1.5
+2017-10-11T22:37:00.810762+00:00 shinyapps[223108]: shiny version: 1.0.5
+2017-10-11T22:37:00.810772+00:00 shinyapps[223108]: knitr version: NA
+2017-10-11T22:37:00.810783+00:00 shinyapps[223108]: htmltools version: 0.3.6
+2017-10-11T22:37:00.957896+00:00 shinyapps[223108]: Using jsonlite for JSON processing
+2017-10-11T22:37:00.810778+00:00 shinyapps[223108]: RJSONIO version: 1.3.0
+2017-10-11T22:37:02.016535+00:00 shinyapps[223108]: 
+2017-10-11T22:37:02.016540+00:00 shinyapps[223108]: 
+2017-10-11T22:37:02.016539+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-11T22:37:02.017237+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-11T22:37:02.017239+00:00 shinyapps[223108]:     date
+2017-10-11T22:37:02.017238+00:00 shinyapps[223108]: 
+2017-10-11T22:37:02.017240+00:00 shinyapps[223108]: 
+2017-10-11T22:37:02.035767+00:00 shinyapps[223108]: 
+2017-10-11T22:37:02.035770+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-11T22:37:02.035771+00:00 shinyapps[223108]: 
+2017-10-11T22:37:02.036032+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-11T22:37:02.036034+00:00 shinyapps[223108]: 
+2017-10-11T22:37:02.036035+00:00 shinyapps[223108]:     serverInfo
+2017-10-11T22:37:02.036035+00:00 shinyapps[223108]: 
+2017-10-11T22:37:02.093153+00:00 shinyapps[223108]: Listening on http://127.0.0.1:46254
+2017-10-11T22:37:02.093149+00:00 shinyapps[223108]: 
+2017-10-11T22:37:03.128586+00:00 shinyapps[223108]: Parsed with column specification:
+2017-10-11T22:37:03.128589+00:00 shinyapps[223108]: cols(
+2017-10-11T22:37:03.128592+00:00 shinyapps[223108]:   .default = col_character(),
+2017-10-11T22:37:03.128593+00:00 shinyapps[223108]:   YEAR = col_integer(),
+2017-10-11T22:37:03.128592+00:00 shinyapps[223108]:   GWNO = col_integer(),
+2017-10-11T22:37:03.128595+00:00 shinyapps[223108]:   LONGITUDE = col_double(),
+2017-10-11T22:37:03.128595+00:00 shinyapps[223108]:   GEO_PRECISION = col_integer(),
+2017-10-11T22:37:03.128596+00:00 shinyapps[223108]:   FATALITIES = col_integer()
+2017-10-11T22:37:03.128596+00:00 shinyapps[223108]: )
+2017-10-11T22:37:03.128783+00:00 shinyapps[223108]: See spec(...) for full column specifications.
+2017-10-11T22:37:03.327778+00:00 shinyapps[223108]: Warning in rbind(names(probs), probs_f) :
+2017-10-11T22:37:03.327780+00:00 shinyapps[223108]:   number of columns of result is not a multiple of vector length (arg 2)
+2017-10-11T22:37:03.328341+00:00 shinyapps[223108]: Warning: 1 parsing failure.
+2017-10-11T22:37:03.328343+00:00 shinyapps[223108]: row # A tibble: 1 x 5 col     row       col expected          actual        file expected   <int>     <chr>    <chr>           <chr>       <chr> actual 1 13194 LONGITUDE a double "\xa0-13.57806" 'ACLED.csv' file # A tibble: 1 x 5
+2017-10-11T22:37:03.328344+00:00 shinyapps[223108]: 
+2017-10-11T22:37:03.128593+00:00 shinyapps[223108]:   TIME_PRECISION = col_integer(),
+2017-10-11T22:37:03.128593+00:00 shinyapps[223108]:   INTER1 = col_integer(),
+2017-10-11T22:37:03.128594+00:00 shinyapps[223108]:   INTERACTION = col_integer(),
+2017-10-11T22:37:03.128594+00:00 shinyapps[223108]:   INTER2 = col_integer(),
+2017-10-11T22:37:03.128595+00:00 shinyapps[223108]:   LATITUDE = col_double(),
+2017-10-11T22:37:05.800822+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=Central+African+Republic&zoom=4&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-11T22:37:10.943458+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/6.png
+2017-10-11T22:37:11.182549+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/6.png
+2017-10-11T22:37:12.138539+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/7.png
+2017-10-11T22:37:11.984990+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/7.png
+2017-10-11T22:37:12.308824+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/8.png
+2017-10-11T22:37:12.468145+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/8.png
+2017-10-11T22:37:13.392185+00:00 shinyapps[223108]: Warning: Removed 255 rows containing non-finite values (stat_density2d).
+2017-10-12T22:37:37.039900+00:00 shinyapps[223108]: Using jsonlite for JSON processing
+2017-10-12T22:37:36.810988+00:00 shinyapps[223108]: LANG: en_US.UTF-8
+2017-10-12T22:37:36.810941+00:00 shinyapps[223108]: Server version: 1.5.6-3
+2017-10-12T22:37:36.810992+00:00 shinyapps[223108]: R version: 3.4.1
+2017-10-12T22:37:36.810995+00:00 shinyapps[223108]: shiny version: 1.0.5
+2017-10-12T22:37:36.810996+00:00 shinyapps[223108]: rmarkdown version: NA
+2017-10-12T22:37:36.811000+00:00 shinyapps[223108]: jsonlite version: 1.5
+2017-10-12T22:37:36.811001+00:00 shinyapps[223108]: RJSONIO version: 1.3.0
+2017-10-12T22:37:36.810996+00:00 shinyapps[223108]: knitr version: NA
+2017-10-12T22:37:36.811002+00:00 shinyapps[223108]: htmltools version: 0.3.6
+2017-10-12T22:37:37.146340+00:00 shinyapps[223108]: 
+2017-10-12T22:37:37.146345+00:00 shinyapps[223108]: Starting R with process ID: '16'
+2017-10-12T22:37:38.558497+00:00 shinyapps[223108]: 
+2017-10-12T22:37:38.558500+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-12T22:37:38.559200+00:00 shinyapps[223108]: 
+2017-10-12T22:37:38.558501+00:00 shinyapps[223108]: 
+2017-10-12T22:37:38.559198+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-12T22:37:38.559200+00:00 shinyapps[223108]:     date
+2017-10-12T22:37:38.559201+00:00 shinyapps[223108]: 
+2017-10-12T22:37:38.594198+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-12T22:37:38.594199+00:00 shinyapps[223108]: 
+2017-10-12T22:37:38.593937+00:00 shinyapps[223108]: 
+2017-10-12T22:37:38.593940+00:00 shinyapps[223108]: 
+2017-10-12T22:37:38.593939+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-12T22:37:38.594201+00:00 shinyapps[223108]: 
+2017-10-12T22:37:38.594200+00:00 shinyapps[223108]:     serverInfo
+2017-10-12T22:37:38.650966+00:00 shinyapps[223108]: 
+2017-10-12T22:37:38.650970+00:00 shinyapps[223108]: Listening on http://127.0.0.1:45125
+2017-10-12T22:51:57.847909+00:00 shinyapps[223108]: LANG: en_US.UTF-8
+2017-10-12T22:51:57.847859+00:00 shinyapps[223108]: Server version: 1.5.6-3
+2017-10-12T22:51:57.847911+00:00 shinyapps[223108]: R version: 3.4.1
+2017-10-12T22:51:57.847914+00:00 shinyapps[223108]: rmarkdown version: NA
+2017-10-12T22:51:57.847913+00:00 shinyapps[223108]: shiny version: 1.0.5
+2017-10-12T22:51:57.847914+00:00 shinyapps[223108]: knitr version: NA
+2017-10-12T22:51:57.847952+00:00 shinyapps[223108]: RJSONIO version: 1.3.0
+2017-10-12T22:51:57.847951+00:00 shinyapps[223108]: jsonlite version: 1.5
+2017-10-12T22:51:57.995005+00:00 shinyapps[223108]: Using jsonlite for JSON processing
+2017-10-12T22:51:57.847952+00:00 shinyapps[223108]: htmltools version: 0.3.6
+2017-10-12T22:51:58.102048+00:00 shinyapps[223108]: 
+2017-10-12T22:51:58.102049+00:00 shinyapps[223108]: Starting R with process ID: '34'
+2017-10-12T22:51:58.704705+00:00 shinyapps[223108]: Loading tidyverse: ggplot2
+2017-10-12T22:51:58.704708+00:00 shinyapps[223108]: Loading tidyverse: tibble
+2017-10-12T22:51:58.704710+00:00 shinyapps[223108]: Loading tidyverse: readr
+2017-10-12T22:51:58.704710+00:00 shinyapps[223108]: Loading tidyverse: purrr
+2017-10-12T22:51:58.833327+00:00 shinyapps[223108]: filter(): dplyr, stats
+2017-10-12T22:51:58.704711+00:00 shinyapps[223108]: Loading tidyverse: dplyr
+2017-10-12T22:51:58.833327+00:00 shinyapps[223108]: lag():    dplyr, stats
+2017-10-12T22:51:58.704709+00:00 shinyapps[223108]: Loading tidyverse: tidyr
+2017-10-12T22:51:58.832769+00:00 shinyapps[223108]: Conflicts with tidy packages ---------------------------------------------------
+2017-10-12T22:52:02.079326+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=Central+African+Republic&zoom=4&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-12T22:52:05.806247+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/6.png
+2017-10-12T22:52:06.035384+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/6.png
+2017-10-12T22:52:06.181386+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/6.png
+2017-10-12T22:52:06.332421+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/6.png
+2017-10-12T22:52:06.782392+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/7.png
+2017-10-12T22:52:06.933622+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/7.png
+2017-10-12T22:52:07.086032+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/8.png
+2017-10-12T22:52:07.256467+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/8.png
+2017-10-12T22:52:08.161693+00:00 shinyapps[223108]: Warning: Removed 255 rows containing non-finite values (stat_density2d).
+2017-10-12T22:52:35.109467+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=cONGO&zoom=4&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-12T22:52:39.713920+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=cONGO&sensor=false
+2017-10-12T22:52:41.106271+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/6.png
+2017-10-12T22:52:41.126949+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:52:41.126952+00:00 shinyapps[223108]:   cannot remove file '9d52a8341fd8e010b7f3891f2affa4e9.rds', reason 'No such file or directory'
+2017-10-12T22:52:41.271027+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/6.png
+2017-10-12T22:52:41.710407+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/7.png
+2017-10-12T22:52:41.729624+00:00 shinyapps[223108]:   cannot remove file 'e73b95a19ee939825c26262fa0e8a03c.rds', reason 'No such file or directory'
+2017-10-12T22:52:41.729622+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:52:41.885927+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/7.png
+2017-10-12T22:52:41.905255+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:52:41.905259+00:00 shinyapps[223108]:   cannot remove file '4156152059dd4ce2318c04476d82a18b.rds', reason 'No such file or directory'
+2017-10-12T22:52:42.049062+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/7.png
+2017-10-12T22:52:42.069310+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:52:42.069313+00:00 shinyapps[223108]:   cannot remove file '956e666df61367aa4057df1d9e663912.rds', reason 'No such file or directory'
+2017-10-12T22:52:42.211500+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/8.png
+2017-10-12T22:52:42.230419+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:52:42.230421+00:00 shinyapps[223108]:   cannot remove file '1ddfbd70b17f0d03e8383c7dd8b28364.rds', reason 'No such file or directory'
+2017-10-12T22:52:42.691817+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/9.png
+2017-10-12T22:52:42.835110+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/9.png
+2017-10-12T22:52:42.978329+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/9.png
+2017-10-12T22:52:50.369595+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=cONGO&zoom=5&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-12T22:52:52.896704+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/16/15.png
+2017-10-12T22:52:53.152632+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/17/15.png
+2017-10-12T22:52:53.307443+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/18/15.png
+2017-10-12T22:52:53.740158+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/18/16.png
+2017-10-12T22:52:53.883986+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/16/17.png
+2017-10-12T22:52:54.037886+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/17/17.png
+2017-10-12T22:52:54.182338+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/18/17.png
+2017-10-12T22:53:03.457499+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=kisangani&zoom=5&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-12T22:53:04.031068+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=kisangani&sensor=false
+2017-10-12T22:53:04.798170+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/16/14.png
+2017-10-12T22:53:04.950158+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/17/14.png
+2017-10-12T22:53:05.097720+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/18/14.png
+2017-10-12T22:53:05.240177+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/19/14.png
+2017-10-12T22:53:05.736243+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/18/15.png
+2017-10-12T22:53:05.755233+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:53:05.755234+00:00 shinyapps[223108]:   cannot remove file '2e706b8e8c336c82638d762d0ea070ad.rds', reason 'No such file or directory'
+2017-10-12T22:53:05.880254+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/19/15.png
+2017-10-12T22:53:06.354781+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/18/16.png
+2017-10-12T22:53:06.378955+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:53:06.378957+00:00 shinyapps[223108]:   cannot remove file '038abc77e6f99d55b1d64ae9e25038a9.rds', reason 'No such file or directory'
+2017-10-12T22:53:06.504492+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/19/16.png
+2017-10-12T22:53:06.978480+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/18/17.png
+2017-10-12T22:53:07.002794+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:53:07.002796+00:00 shinyapps[223108]:   cannot remove file 'e9f3b4308385ab999229ab5e61f97fc8.rds', reason 'No such file or directory'
+2017-10-12T22:53:07.128483+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/19/17.png
+2017-10-12T22:53:13.949927+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=kisangani&zoom=6&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-12T22:53:14.630746+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=kisangani&sensor=false
+2017-10-12T22:53:14.873494+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/35/30.png
+2017-10-12T22:53:15.422901+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/35/31.png
+2017-10-12T22:53:15.567637+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/36/31.png
+2017-10-12T22:53:15.712294+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/37/31.png
+2017-10-12T22:53:15.856028+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/35/32.png
+2017-10-12T22:53:16.439030+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/36/33.png
+2017-10-12T22:53:16.294887+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/35/33.png
+2017-10-12T22:53:17.055480+00:00 shinyapps[223108]: Warning: Removed 2382 rows containing missing values (geom_point).
+2017-10-12T22:53:57.961962+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=kisangani&sensor=false
+2017-10-12T22:53:58.217577+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/16/14.png
+2017-10-12T22:53:58.236946+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:53:58.376438+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/17/14.png
+2017-10-12T22:53:58.236948+00:00 shinyapps[223108]:   cannot remove file 'd2010084426beaf14380a362f6c9966c.rds', reason 'No such file or directory'
+2017-10-12T22:53:58.395483+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:53:58.395486+00:00 shinyapps[223108]:   cannot remove file '3499332efdc266f031cf295e6f17dd4f.rds', reason 'No such file or directory'
+2017-10-12T22:53:58.856000+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/16/15.png
+2017-10-12T22:53:58.874941+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:53:58.874944+00:00 shinyapps[223108]:   cannot remove file '4380c773d2ae1207f65d7c894775bf81.rds', reason 'No such file or directory'
+2017-10-12T22:53:59.016340+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/17/15.png
+2017-10-12T22:53:59.035427+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:53:59.035429+00:00 shinyapps[223108]:   cannot remove file '94727de824e48481898f9e368f716a36.rds', reason 'No such file or directory'
+2017-10-12T22:53:59.502206+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/16/16.png
+2017-10-12T22:53:59.520646+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:53:59.520649+00:00 shinyapps[223108]:   cannot remove file 'd014644b026fdc33745514888e7cb380.rds', reason 'No such file or directory'
+2017-10-12T22:53:59.659978+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/17/16.png
+2017-10-12T22:53:59.679364+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:53:59.679366+00:00 shinyapps[223108]:   cannot remove file 'fda0d51ee2e59a980df9d638cb203ebf.rds', reason 'No such file or directory'
+2017-10-12T22:54:00.141502+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/16/17.png
+2017-10-12T22:54:00.159579+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:00.299154+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/17/17.png
+2017-10-12T22:54:00.159582+00:00 shinyapps[223108]:   cannot remove file '3f9703a7c3241902c5f076a13f1b0915.rds', reason 'No such file or directory'
+2017-10-12T22:54:00.324456+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:00.324459+00:00 shinyapps[223108]:   cannot remove file 'a96c882a0e22d3318f1af84900e8d69d.rds', reason 'No such file or directory'
+2017-10-12T22:54:00.464744+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/18/17.png
+2017-10-12T22:54:00.483996+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:00.483998+00:00 shinyapps[223108]:   cannot remove file 'e9f3b4308385ab999229ab5e61f97fc8.rds', reason 'No such file or directory'
+2017-10-12T22:54:00.625217+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/19/17.png
+2017-10-12T22:54:00.643995+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:00.643997+00:00 shinyapps[223108]:   cannot remove file 'ac6e362dd4e15cc896938ce8ef9ccb99.rds', reason 'No such file or directory'
+2017-10-12T22:54:15.959879+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=tshikapa&sensor=false
+2017-10-12T22:54:16.900102+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/18/15.png
+2017-10-12T22:54:16.921484+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:17.064624+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/19/15.png
+2017-10-12T22:54:16.921487+00:00 shinyapps[223108]:   cannot remove file '2e706b8e8c336c82638d762d0ea070ad.rds', reason 'No such file or directory'
+2017-10-12T22:54:17.083921+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:17.083924+00:00 shinyapps[223108]:   cannot remove file '831fa2d0340850ea95adc704afaac75b.rds', reason 'No such file or directory'
+2017-10-12T22:54:17.224869+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/16/16.png
+2017-10-12T22:54:17.243125+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:17.243127+00:00 shinyapps[223108]:   cannot remove file 'd014644b026fdc33745514888e7cb380.rds', reason 'No such file or directory'
+2017-10-12T22:54:17.382641+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/17/16.png
+2017-10-12T22:54:17.401646+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:17.401649+00:00 shinyapps[223108]:   cannot remove file 'fda0d51ee2e59a980df9d638cb203ebf.rds', reason 'No such file or directory'
+2017-10-12T22:54:17.882372+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/16/17.png
+2017-10-12T22:54:17.901037+00:00 shinyapps[223108]:   cannot remove file '3f9703a7c3241902c5f076a13f1b0915.rds', reason 'No such file or directory'
+2017-10-12T22:54:17.901033+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:18.039740+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/17/17.png
+2017-10-12T22:54:18.058726+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:18.058729+00:00 shinyapps[223108]:   cannot remove file 'a96c882a0e22d3318f1af84900e8d69d.rds', reason 'No such file or directory'
+2017-10-12T22:54:18.198793+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/18/17.png
+2017-10-12T22:54:18.217903+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:18.217908+00:00 shinyapps[223108]:   cannot remove file 'e9f3b4308385ab999229ab5e61f97fc8.rds', reason 'No such file or directory'
+2017-10-12T22:54:18.382072+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:18.363677+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/19/17.png
+2017-10-12T22:54:18.382094+00:00 shinyapps[223108]:   cannot remove file 'ac6e362dd4e15cc896938ce8ef9ccb99.rds', reason 'No such file or directory'
+2017-10-12T22:54:23.179717+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=tshikapa&sensor=false
+2017-10-12T22:54:23.419727+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/7/70/65.png
+2017-10-12T22:54:23.850632+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/7/70/66.png
+2017-10-12T22:54:23.993877+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/7/71/66.png
+2017-10-12T22:54:24.424325+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/7/71/67.png
+2017-10-12T22:54:24.577580+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/7/72/67.png
+2017-10-12T22:54:24.950578+00:00 shinyapps[223108]: Warning: Removed 3322 rows containing missing values (geom_point).
+2017-10-12T22:54:29.487702+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=tshikapa&zoom=6&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-12T22:54:33.681027+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:33.500089+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/34/31.png
+2017-10-12T22:54:33.681031+00:00 shinyapps[223108]:   cannot remove file '75a15e9f72acaf2e599e7eff2542ff51.rds', reason 'No such file or directory'
+2017-10-12T22:54:33.661627+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/35/31.png
+2017-10-12T22:54:34.130186+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/35/32.png
+2017-10-12T22:54:34.149156+00:00 shinyapps[223108]:   cannot remove file '7ddfe304d169fce2804db5bdc198b44b.rds', reason 'No such file or directory'
+2017-10-12T22:54:34.149153+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:34.289026+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/36/32.png
+2017-10-12T22:54:34.307887+00:00 shinyapps[223108]:   cannot remove file 'd287153e907e96e4923acf662492f12c.rds', reason 'No such file or directory'
+2017-10-12T22:54:34.307884+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:34.434038+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/34/33.png
+2017-10-12T22:54:34.604451+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/35/33.png
+2017-10-12T22:54:34.623998+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:34.624001+00:00 shinyapps[223108]:   cannot remove file 'b35340c44a145593e769b8b0f06814c4.rds', reason 'No such file or directory'
+2017-10-12T22:54:34.765356+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/36/33.png
+2017-10-12T22:54:34.784571+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:34.784575+00:00 shinyapps[223108]:   cannot remove file '6e6d2a4509b76ac9b8dca174becc26fe.rds', reason 'No such file or directory'
+2017-10-12T22:54:34.910674+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/34/34.png
+2017-10-12T22:54:35.055850+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/35/34.png
+2017-10-12T22:54:35.200466+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/6/36/34.png
+2017-10-12T22:54:36.174406+00:00 shinyapps[223108]: Warning: Removed 3295 rows containing missing values (geom_point).
+2017-10-12T22:54:44.765410+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=tshikapa&sensor=false
+2017-10-12T22:54:45.355186+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/7/72/65.png
+2017-10-12T22:54:45.374120+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:45.535928+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:45.374122+00:00 shinyapps[223108]:   cannot remove file 'a9fb6608e1e70a241be9dc812550b3e8.rds', reason 'No such file or directory'
+2017-10-12T22:54:45.535930+00:00 shinyapps[223108]:   cannot remove file '638e81590d9da48aec3150841b0c8936.rds', reason 'No such file or directory'
+2017-10-12T22:54:45.516363+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/7/70/66.png
+2017-10-12T22:54:45.675873+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/7/71/66.png
+2017-10-12T22:54:45.695392+00:00 shinyapps[223108]:   cannot remove file '051ac99633e18b26afe0e49e01297222.rds', reason 'No such file or directory'
+2017-10-12T22:54:45.695384+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:45.854499+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:45.835665+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/7/72/66.png
+2017-10-12T22:54:45.854502+00:00 shinyapps[223108]:   cannot remove file '3860cd8c317dce7e4f94648693e2ad93.rds', reason 'No such file or directory'
+2017-10-12T22:54:45.994245+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/7/70/67.png
+2017-10-12T22:54:46.021678+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:46.021680+00:00 shinyapps[223108]:   cannot remove file '88feaf61bc87bfba91990ee1be2fb437.rds', reason 'No such file or directory'
+2017-10-12T22:54:46.161620+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/7/71/67.png
+2017-10-12T22:54:46.181876+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:46.181879+00:00 shinyapps[223108]:   cannot remove file 'b68b705f75bc6fdec023ba8cfdef9034.rds', reason 'No such file or directory'
+2017-10-12T22:54:46.322604+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/7/72/67.png
+2017-10-12T22:54:46.342242+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-12T22:54:46.342243+00:00 shinyapps[223108]:   cannot remove file '87041921c139bc1c841fcb2da205312c.rds', reason 'No such file or directory'
+2017-10-12T22:54:46.805625+00:00 shinyapps[223108]: Warning: Removed 3322 rows containing missing values (geom_point).
+2017-10-12T22:54:53.796816+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-12T22:54:53.796832+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-12T22:54:53.884529+00:00 shinyapps[223108]: Warning: Removed 1747 rows containing missing values (geom_point).
+2017-10-12T22:54:54.669541+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-12T22:54:54.669556+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-12T22:54:54.759352+00:00 shinyapps[223108]: Warning: Removed 1595 rows containing missing values (geom_point).
+2017-10-12T22:55:00.686254+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-12T22:55:00.686258+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-12T22:55:00.767284+00:00 shinyapps[223108]: Warning: Removed 1525 rows containing missing values (geom_point).
+2017-10-12T22:55:06.370054+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-12T22:55:06.370057+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-12T22:55:06.456169+00:00 shinyapps[223108]: Warning: Removed 1525 rows containing missing values (geom_point).
+2017-10-12T22:55:06.741347+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-12T22:55:06.741350+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-12T22:55:06.826225+00:00 shinyapps[223108]: Warning: Removed 1595 rows containing missing values (geom_point).
+2017-10-12T22:55:07.736492+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-12T22:55:07.736494+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-12T22:55:07.821959+00:00 shinyapps[223108]: Warning: Removed 1747 rows containing missing values (geom_point).
+2017-10-12T22:55:08.176014+00:00 shinyapps[223108]: Warning: Removed 3322 rows containing missing values (geom_point).
+2017-10-12T22:55:13.958928+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=tshikapa&zoom=8&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-12T22:55:14.650537+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=tshikapa&sensor=false
+2017-10-12T22:55:15.703079+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/8/143/131.png
+2017-10-12T22:55:15.847262+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/8/144/131.png
+2017-10-12T22:55:15.990846+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/8/141/132.png
+2017-10-12T22:55:16.136407+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/8/142/132.png
+2017-10-12T22:55:16.575439+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/8/141/133.png
+2017-10-12T22:55:16.718328+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/8/142/133.png
+2017-10-12T22:55:17.018632+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/8/144/133.png
+2017-10-12T22:55:16.861409+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/8/143/133.png
+2017-10-12T23:01:49.071915+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=tshikapa&sensor=false
+2017-10-12T23:01:49.825647+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/10/569/529.png
+2017-10-12T23:01:49.969936+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/10/570/529.png
+2017-10-12T23:01:50.444692+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/10/569/530.png
+2017-10-12T23:01:50.597107+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/10/570/530.png
+2017-10-12T23:01:51.068334+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/10/569/531.png
+2017-10-12T23:01:51.248338+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/10/570/531.png
+2017-10-12T23:01:51.620160+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/10/572/531.png
+2017-10-12T23:01:51.423214+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/10/571/531.png
+2017-10-12T23:01:58.023168+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-12T23:01:58.023171+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-12T23:01:58.113422+00:00 shinyapps[223108]: Warning: Removed 1700 rows containing missing values (geom_point).
+2017-10-12T23:01:58.428803+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-12T23:01:58.428807+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-12T23:01:58.520098+00:00 shinyapps[223108]: Warning: Removed 2704 rows containing missing values (geom_point).
+2017-10-12T23:01:59.434093+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-12T23:01:59.523545+00:00 shinyapps[223108]: Warning: Removed 1877 rows containing missing values (geom_point).
+2017-10-12T23:01:59.434096+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-12T23:01:59.894462+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-12T23:01:59.894466+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-12T23:01:59.980923+00:00 shinyapps[223108]: Warning: Removed 1577 rows containing missing values (geom_point).
+2017-10-12T23:02:00.757393+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-12T23:02:00.848512+00:00 shinyapps[223108]: Warning: Removed 1529 rows containing missing values (geom_point).
+2017-10-12T23:02:00.757395+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-12T23:02:01.156902+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-12T23:02:01.156905+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-12T23:02:01.244398+00:00 shinyapps[223108]: Warning: Removed 1406 rows containing missing values (geom_point).
+2017-10-13T12:41:12.246566+00:00 shinyapps[223108]: Server version: 1.5.6-3
+2017-10-13T12:41:12.246611+00:00 shinyapps[223108]: R version: 3.4.1
+2017-10-13T12:41:12.246609+00:00 shinyapps[223108]: LANG: en_US.UTF-8
+2017-10-13T12:41:12.246616+00:00 shinyapps[223108]: shiny version: 1.0.5
+2017-10-13T12:41:12.246624+00:00 shinyapps[223108]: knitr version: NA
+2017-10-13T12:41:12.246616+00:00 shinyapps[223108]: rmarkdown version: NA
+2017-10-13T12:41:12.246633+00:00 shinyapps[223108]: RJSONIO version: 1.3.0
+2017-10-13T12:41:12.246624+00:00 shinyapps[223108]: jsonlite version: 1.5
+2017-10-13T12:41:12.246651+00:00 shinyapps[223108]: htmltools version: 0.3.6
+2017-10-13T12:41:12.477922+00:00 shinyapps[223108]: Using jsonlite for JSON processing
+2017-10-13T12:41:12.585759+00:00 shinyapps[223108]: 
+2017-10-13T12:41:12.585762+00:00 shinyapps[223108]: Starting R with process ID: '15'
+2017-10-13T12:41:14.046135+00:00 shinyapps[223108]: 
+2017-10-13T12:41:14.046138+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-13T12:41:14.046139+00:00 shinyapps[223108]: 
+2017-10-13T12:41:14.046816+00:00 shinyapps[223108]: 
+2017-10-13T12:41:14.046815+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-13T12:41:14.046816+00:00 shinyapps[223108]: 
+2017-10-13T12:41:14.046816+00:00 shinyapps[223108]:     date
+2017-10-13T12:41:14.078037+00:00 shinyapps[223108]: 
+2017-10-13T12:41:14.078039+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-13T12:41:14.078299+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-13T12:41:14.078040+00:00 shinyapps[223108]: 
+2017-10-13T12:41:14.078300+00:00 shinyapps[223108]: 
+2017-10-13T12:41:14.078300+00:00 shinyapps[223108]:     serverInfo
+2017-10-13T12:41:14.078301+00:00 shinyapps[223108]: 
+2017-10-13T12:41:14.132467+00:00 shinyapps[223108]: 
+2017-10-13T12:41:14.132471+00:00 shinyapps[223108]: Listening on http://127.0.0.1:34754
+2017-10-13T12:41:32.730281+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=Central+African+Republic&zoom=4&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-13T12:41:37.669386+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=Central%20African%20Republic&sensor=false
+2017-10-13T12:41:37.820571+00:00 shinyapps[223108]: Warning: geocode failed with status OVER_QUERY_LIMIT, location = "Central African Republic"
+2017-10-13T12:41:37.868245+00:00 shinyapps[223108]: Warning: Error in data.frame: arguments imply differing number of rows: 0, 1
+2017-10-13T12:41:37.872771+00:00 shinyapps[223108]:       7: connect$retry
+2017-10-13T12:41:37.872762+00:00 shinyapps[223108]: Stack trace (innermost first):
+2017-10-13T12:41:37.872772+00:00 shinyapps[223108]:       5: eval
+2017-10-13T12:41:37.872767+00:00 shinyapps[223108]:     111: renderPlot [/srv/connect/apps/africanconflictapp/app.R#73]
+2017-10-13T12:41:37.872767+00:00 shinyapps[223108]:     101: <reactive:plotObj>
+2017-10-13T12:41:37.872768+00:00 shinyapps[223108]:      90: plotObj
+2017-10-13T12:41:37.872768+00:00 shinyapps[223108]:      89: origRenderFunc
+2017-10-13T12:41:37.872768+00:00 shinyapps[223108]:      88: output$africa
+2017-10-13T12:41:37.872769+00:00 shinyapps[223108]:      13: runApp
+2017-10-13T12:41:37.872769+00:00 shinyapps[223108]:      12: fn
+2017-10-13T12:41:37.872770+00:00 shinyapps[223108]:      11: doTryCatch
+2017-10-13T12:41:37.872770+00:00 shinyapps[223108]:      10: tryCatchOne
+2017-10-13T12:41:37.872770+00:00 shinyapps[223108]:       9: tryCatchList
+2017-10-13T12:41:37.872771+00:00 shinyapps[223108]:       8: tryCatch
+2017-10-13T12:41:37.872771+00:00 shinyapps[223108]:       6: eval
+2017-10-13T12:41:37.872763+00:00 shinyapps[223108]:     127: data.frame
+2017-10-13T12:41:37.872772+00:00 shinyapps[223108]:       4: eval
+2017-10-13T12:41:37.872764+00:00 shinyapps[223108]:     125: get_map
+2017-10-13T12:41:37.872772+00:00 shinyapps[223108]:       3: eval
+2017-10-13T12:41:37.872766+00:00 shinyapps[223108]:     112: ggmap
+2017-10-13T12:41:37.872766+00:00 shinyapps[223108]:     113: map
+2017-10-13T12:41:37.872764+00:00 shinyapps[223108]:     126: get_googlemap
+2017-10-13T12:41:37.872772+00:00 shinyapps[223108]:       2: eval.parent
+2017-10-13T12:41:37.872765+00:00 shinyapps[223108]:     124: <reactive:map> [/srv/connect/apps/africanconflictapp/app.R#61]
+2017-10-13T12:41:37.872773+00:00 shinyapps[223108]:       1: local
+2017-10-13T12:41:43.266573+00:00 shinyapps[223108]: Parsed with column specification:
+2017-10-13T12:41:43.266576+00:00 shinyapps[223108]: cols(
+2017-10-13T12:41:43.266579+00:00 shinyapps[223108]:   YEAR = col_integer(),
+2017-10-13T12:41:43.266578+00:00 shinyapps[223108]:   GWNO = col_integer(),
+2017-10-13T12:41:43.266579+00:00 shinyapps[223108]:   INTER1 = col_integer(),
+2017-10-13T12:41:43.266579+00:00 shinyapps[223108]:   TIME_PRECISION = col_integer(),
+2017-10-13T12:41:43.266578+00:00 shinyapps[223108]:   .default = col_character(),
+2017-10-13T12:41:43.266580+00:00 shinyapps[223108]:   INTERACTION = col_integer(),
+2017-10-13T12:41:43.266580+00:00 shinyapps[223108]:   INTER2 = col_integer(),
+2017-10-13T12:41:43.266581+00:00 shinyapps[223108]:   LONGITUDE = col_double(),
+2017-10-13T12:41:43.266582+00:00 shinyapps[223108]:   GEO_PRECISION = col_integer(),
+2017-10-13T12:41:43.266581+00:00 shinyapps[223108]:   LATITUDE = col_double(),
+2017-10-13T12:41:43.266582+00:00 shinyapps[223108]: )
+2017-10-13T12:41:43.266773+00:00 shinyapps[223108]: See spec(...) for full column specifications.
+2017-10-13T12:41:43.266582+00:00 shinyapps[223108]:   FATALITIES = col_integer()
+2017-10-13T12:41:43.439880+00:00 shinyapps[223108]: Warning in rbind(names(probs), probs_f) :
+2017-10-13T12:41:43.439885+00:00 shinyapps[223108]:   number of columns of result is not a multiple of vector length (arg 2)
+2017-10-13T12:41:43.440487+00:00 shinyapps[223108]: row # A tibble: 1 x 5 col     row       col expected          actual        file expected   <int>     <chr>    <chr>           <chr>       <chr> actual 1 13194 LONGITUDE a double "\xa0-13.57806" 'ACLED.csv' file # A tibble: 1 x 5
+2017-10-13T12:41:43.440485+00:00 shinyapps[223108]: Warning: 1 parsing failure.
+2017-10-13T12:41:43.440487+00:00 shinyapps[223108]: 
+2017-10-13T12:41:44.085178+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=Central+African+Republic&zoom=4&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-13T12:41:52.432239+00:00 shinyapps[223108]:   .default = col_character(),
+2017-10-13T12:41:52.432240+00:00 shinyapps[223108]:   TIME_PRECISION = col_integer(),
+2017-10-13T12:41:52.432241+00:00 shinyapps[223108]:   INTER2 = col_integer(),
+2017-10-13T12:41:52.432241+00:00 shinyapps[223108]:   LATITUDE = col_double(),
+2017-10-13T12:41:52.432235+00:00 shinyapps[223108]: Parsed with column specification:
+2017-10-13T12:41:52.432237+00:00 shinyapps[223108]: cols(
+2017-10-13T12:41:52.432239+00:00 shinyapps[223108]:   GWNO = col_integer(),
+2017-10-13T12:41:52.432239+00:00 shinyapps[223108]:   YEAR = col_integer(),
+2017-10-13T12:41:52.432240+00:00 shinyapps[223108]:   INTER1 = col_integer(),
+2017-10-13T12:41:52.432241+00:00 shinyapps[223108]:   INTERACTION = col_integer(),
+2017-10-13T12:41:52.432242+00:00 shinyapps[223108]:   LONGITUDE = col_double(),
+2017-10-13T12:41:52.432242+00:00 shinyapps[223108]:   GEO_PRECISION = col_integer(),
+2017-10-13T12:41:52.432243+00:00 shinyapps[223108]:   FATALITIES = col_integer()
+2017-10-13T12:41:52.496879+00:00 shinyapps[223108]: Warning in rbind(names(probs), probs_f) :
+2017-10-13T12:41:52.432243+00:00 shinyapps[223108]: )
+2017-10-13T12:41:52.432456+00:00 shinyapps[223108]: See spec(...) for full column specifications.
+2017-10-13T12:41:52.496882+00:00 shinyapps[223108]:   number of columns of result is not a multiple of vector length (arg 2)
+2017-10-13T12:41:52.497367+00:00 shinyapps[223108]: Warning: 1 parsing failure.
+2017-10-13T12:41:52.497368+00:00 shinyapps[223108]: row # A tibble: 1 x 5 col     row       col expected          actual        file expected   <int>     <chr>    <chr>           <chr>       <chr> actual 1 13194 LONGITUDE a double "\xa0-13.57806" 'ACLED.csv' file # A tibble: 1 x 5
+2017-10-13T12:41:52.497369+00:00 shinyapps[223108]: 
+2017-10-13T12:41:57.216842+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=Central%20African%20Republic&sensor=false
+2017-10-13T12:41:57.379758+00:00 shinyapps[223108]: Warning: Error in data.frame: arguments imply differing number of rows: 0, 1
+2017-10-13T12:41:57.383769+00:00 shinyapps[223108]: Stack trace (innermost first):
+2017-10-13T12:41:57.383770+00:00 shinyapps[223108]:     127: data.frame
+2017-10-13T12:41:57.383771+00:00 shinyapps[223108]:     126: get_googlemap
+2017-10-13T12:41:57.370149+00:00 shinyapps[223108]: Warning: geocode failed with status OVER_QUERY_LIMIT, location = "Central African Republic"
+2017-10-13T12:41:57.383771+00:00 shinyapps[223108]:     125: get_map
+2017-10-13T12:41:57.383772+00:00 shinyapps[223108]:     124: <reactive:map> [/srv/connect/apps/africanconflictapp/app.R#61]
+2017-10-13T12:41:57.383774+00:00 shinyapps[223108]:     111: renderPlot [/srv/connect/apps/africanconflictapp/app.R#73]
+2017-10-13T12:41:57.383773+00:00 shinyapps[223108]:     113: map
+2017-10-13T12:41:57.383773+00:00 shinyapps[223108]:     112: ggmap
+2017-10-13T12:41:57.383774+00:00 shinyapps[223108]:     101: <reactive:plotObj>
+2017-10-13T12:41:57.383775+00:00 shinyapps[223108]:      90: plotObj
+2017-10-13T12:41:57.383775+00:00 shinyapps[223108]:      89: origRenderFunc
+2017-10-13T12:41:57.383776+00:00 shinyapps[223108]:      88: output$africa
+2017-10-13T12:41:57.383776+00:00 shinyapps[223108]:      13: runApp
+2017-10-13T12:41:57.383777+00:00 shinyapps[223108]:      12: fn
+2017-10-13T12:41:57.383777+00:00 shinyapps[223108]:      11: doTryCatch
+2017-10-13T12:41:57.383778+00:00 shinyapps[223108]:      10: tryCatchOne
+2017-10-13T12:41:57.383778+00:00 shinyapps[223108]:       9: tryCatchList
+2017-10-13T12:41:57.383778+00:00 shinyapps[223108]:       8: tryCatch
+2017-10-13T12:41:57.383779+00:00 shinyapps[223108]:       7: connect$retry
+2017-10-13T12:41:57.383779+00:00 shinyapps[223108]:       6: eval
+2017-10-13T12:41:57.383779+00:00 shinyapps[223108]:       5: eval
+2017-10-13T12:41:57.383780+00:00 shinyapps[223108]:       4: eval
+2017-10-13T12:41:57.383780+00:00 shinyapps[223108]:       3: eval
+2017-10-13T12:41:57.383781+00:00 shinyapps[223108]:       2: eval.parent
+2017-10-13T12:41:57.383781+00:00 shinyapps[223108]:       1: local
+2017-10-13T12:42:29.937221+00:00 shinyapps[223108]: Warning: Error in data.frame: arguments imply differing number of rows: 0, 1
+2017-10-13T12:42:29.941359+00:00 shinyapps[223108]: Stack trace (innermost first):
+2017-10-13T12:42:29.941361+00:00 shinyapps[223108]:     115: <Anonymous>
+2017-10-13T12:42:29.941363+00:00 shinyapps[223108]:     114: stop
+2017-10-13T12:42:29.941363+00:00 shinyapps[223108]:     112: ggmap
+2017-10-13T12:42:29.941363+00:00 shinyapps[223108]:     113: map
+2017-10-13T12:42:29.941364+00:00 shinyapps[223108]:     111: renderPlot [/srv/connect/apps/africanconflictapp/app.R#86]
+2017-10-13T12:42:29.941364+00:00 shinyapps[223108]:     101: <reactive:plotObj>
+2017-10-13T12:42:29.941382+00:00 shinyapps[223108]:      89: origRenderFunc
+2017-10-13T12:42:29.941382+00:00 shinyapps[223108]:      88: output$africa
+2017-10-13T12:42:29.941382+00:00 shinyapps[223108]:      13: runApp
+2017-10-13T12:42:29.941383+00:00 shinyapps[223108]:      12: fn
+2017-10-13T12:42:29.941383+00:00 shinyapps[223108]:      11: doTryCatch
+2017-10-13T12:42:29.941384+00:00 shinyapps[223108]:      10: tryCatchOne
+2017-10-13T12:42:29.941384+00:00 shinyapps[223108]:       9: tryCatchList
+2017-10-13T12:42:29.941385+00:00 shinyapps[223108]:       8: tryCatch
+2017-10-13T12:42:29.941385+00:00 shinyapps[223108]:       7: connect$retry
+2017-10-13T12:42:29.941385+00:00 shinyapps[223108]:       6: eval
+2017-10-13T12:42:29.941386+00:00 shinyapps[223108]:       5: eval
+2017-10-13T12:42:29.941381+00:00 shinyapps[223108]:      90: plotObj
+2017-10-13T12:42:29.941386+00:00 shinyapps[223108]:       3: eval
+2017-10-13T12:42:29.941386+00:00 shinyapps[223108]:       4: eval
+2017-10-13T12:42:29.941387+00:00 shinyapps[223108]:       2: eval.parent
+2017-10-13T12:42:29.941387+00:00 shinyapps[223108]:       1: local
+2017-10-13T12:42:38.011603+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=Central+African+Republic&zoom=5&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-13T12:42:38.871657+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=Central%20African%20Republic&sensor=false
+2017-10-13T12:42:39.941620+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/18/14.png
+2017-10-13T12:42:40.085780+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/19/14.png
+2017-10-13T12:42:40.232734+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/16/15.png
+2017-10-13T12:42:40.379213+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/17/15.png
+2017-10-13T12:42:40.960676+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/17/16.png
+2017-10-13T12:42:40.813830+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/16/16.png
+2017-10-13T12:42:41.269575+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/19/16.png
+2017-10-13T12:42:41.108988+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/5/18/16.png
+2017-10-13T12:42:42.646170+00:00 shinyapps[223108]: Warning: Removed 853 rows containing missing values (geom_point).
+2017-10-13T18:19:48.862561+00:00 shinyapps[223108]: 
+2017-10-13T18:19:48.862565+00:00 shinyapps[223108]: Starting R with process ID: '16'
+2017-10-13T18:19:50.297512+00:00 shinyapps[223108]: 
+2017-10-13T18:19:50.297516+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-13T18:19:50.329617+00:00 shinyapps[223108]: 
+2017-10-13T18:19:50.297516+00:00 shinyapps[223108]: 
+2017-10-13T18:19:50.385487+00:00 shinyapps[223108]: 
+2017-10-13T18:19:50.298238+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-13T18:19:50.385491+00:00 shinyapps[223108]: Listening on http://127.0.0.1:43384
+2017-10-13T18:19:50.298240+00:00 shinyapps[223108]: 
+2017-10-13T18:19:50.298241+00:00 shinyapps[223108]:     date
+2017-10-13T18:19:50.329614+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-13T18:19:50.329616+00:00 shinyapps[223108]: 
+2017-10-13T18:19:50.329617+00:00 shinyapps[223108]:     serverInfo
+2017-10-13T18:19:50.298242+00:00 shinyapps[223108]: 
+2017-10-13T18:19:50.329377+00:00 shinyapps[223108]: 
+2017-10-13T18:19:50.329376+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-13T18:19:50.329372+00:00 shinyapps[223108]: 
+2017-10-13T18:20:01.324662+00:00 shinyapps[223108]: Parsed with column specification:
+2017-10-13T18:20:01.324665+00:00 shinyapps[223108]: cols(
+2017-10-13T18:20:01.324666+00:00 shinyapps[223108]:   .default = col_character(),
+2017-10-13T18:20:01.324667+00:00 shinyapps[223108]:   TIME_PRECISION = col_integer(),
+2017-10-13T18:20:01.324667+00:00 shinyapps[223108]:   YEAR = col_integer(),
+2017-10-13T18:20:01.324666+00:00 shinyapps[223108]:   GWNO = col_integer(),
+2017-10-13T18:20:01.324668+00:00 shinyapps[223108]:   INTER1 = col_integer(),
+2017-10-13T18:20:01.324668+00:00 shinyapps[223108]:   INTER2 = col_integer(),
+2017-10-13T18:20:01.324668+00:00 shinyapps[223108]:   INTERACTION = col_integer(),
+2017-10-13T18:20:01.324669+00:00 shinyapps[223108]:   LONGITUDE = col_double(),
+2017-10-13T18:20:01.324669+00:00 shinyapps[223108]:   LATITUDE = col_double(),
+2017-10-13T18:20:01.324669+00:00 shinyapps[223108]:   GEO_PRECISION = col_integer(),
+2017-10-13T18:20:01.324670+00:00 shinyapps[223108]:   FATALITIES = col_integer()
+2017-10-13T18:20:01.324670+00:00 shinyapps[223108]: )
+2017-10-13T18:20:01.324843+00:00 shinyapps[223108]: See spec(...) for full column specifications.
+2017-10-13T18:20:01.537572+00:00 shinyapps[223108]: Warning in rbind(names(probs), probs_f) :
+2017-10-13T18:20:01.537575+00:00 shinyapps[223108]:   number of columns of result is not a multiple of vector length (arg 2)
+2017-10-13T18:20:01.538137+00:00 shinyapps[223108]: Warning: 1 parsing failure.
+2017-10-13T18:20:01.538143+00:00 shinyapps[223108]: row # A tibble: 1 x 5 col     row       col expected          actual        file expected   <int>     <chr>    <chr>           <chr>       <chr> actual 1 13194 LONGITUDE a double "\xa0-13.57806" 'ACLED.csv' file # A tibble: 1 x 5
+2017-10-13T18:20:01.538144+00:00 shinyapps[223108]: 
+2017-10-13T18:20:03.143547+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=Central+African+Republic&zoom=4&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-13T18:20:07.195497+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=Central%20African%20Republic&sensor=false
+2017-10-13T18:20:08.393046+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/6.png
+2017-10-13T18:20:08.543459+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/6.png
+2017-10-13T18:20:08.693826+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/7.png
+2017-10-13T18:20:08.844129+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/7.png
+2017-10-13T18:20:09.293552+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/8.png
+2017-10-13T18:20:09.436328+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/8.png
+2017-10-13T18:20:09.581438+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/8.png
+2017-10-13T18:20:09.727245+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/8.png
+2017-10-13T18:20:51.114258+00:00 shinyapps[223108]: Warning: Removed 255 rows containing missing values (geom_point).
+2017-10-13T20:05:09.998575+00:00 shinyapps[223108]: Server version: 1.5.6-3
+2017-10-13T20:05:09.998617+00:00 shinyapps[223108]: R version: 3.4.1
+2017-10-13T20:05:09.998614+00:00 shinyapps[223108]: LANG: en_US.UTF-8
+2017-10-13T20:05:09.998618+00:00 shinyapps[223108]: shiny version: 1.0.5
+2017-10-13T20:05:09.998619+00:00 shinyapps[223108]: jsonlite version: 1.5
+2017-10-13T20:05:09.998619+00:00 shinyapps[223108]: rmarkdown version: NA
+2017-10-13T20:05:09.998619+00:00 shinyapps[223108]: knitr version: NA
+2017-10-13T20:05:09.998619+00:00 shinyapps[223108]: RJSONIO version: 1.3.0
+2017-10-13T20:05:09.998620+00:00 shinyapps[223108]: htmltools version: 0.3.6
+2017-10-13T20:05:10.238380+00:00 shinyapps[223108]: Using jsonlite for JSON processing
+2017-10-13T20:05:10.335347+00:00 shinyapps[223108]: 
+2017-10-13T20:05:10.335350+00:00 shinyapps[223108]: Starting R with process ID: '17'
+2017-10-13T20:05:11.776710+00:00 shinyapps[223108]: 
+2017-10-13T20:05:11.776714+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-13T20:05:11.777368+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-13T20:05:11.776715+00:00 shinyapps[223108]: 
+2017-10-13T20:05:11.777370+00:00 shinyapps[223108]: 
+2017-10-13T20:05:11.809804+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-13T20:05:11.777370+00:00 shinyapps[223108]:     date
+2017-10-13T20:05:11.809544+00:00 shinyapps[223108]: 
+2017-10-13T20:05:11.777371+00:00 shinyapps[223108]: 
+2017-10-13T20:05:11.809547+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-13T20:05:11.809548+00:00 shinyapps[223108]: 
+2017-10-13T20:05:11.809805+00:00 shinyapps[223108]: 
+2017-10-13T20:05:11.809806+00:00 shinyapps[223108]: 
+2017-10-13T20:05:11.809805+00:00 shinyapps[223108]:     serverInfo
+2017-10-13T20:05:11.866727+00:00 shinyapps[223108]: 
+2017-10-13T20:05:11.866730+00:00 shinyapps[223108]: Listening on http://127.0.0.1:36013
+2017-10-13T20:05:33.596018+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/6.png
+2017-10-13T20:05:33.833649+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/6.png
+2017-10-13T20:05:34.130271+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/6.png
+2017-10-13T20:05:33.979717+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/6.png
+2017-10-13T20:05:34.580021+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/7.png
+2017-10-13T20:05:34.729693+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/7.png
+2017-10-13T20:05:35.321382+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/8.png
+2017-10-13T20:05:35.175219+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/8.png
+2017-10-13T20:07:49.860751+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=Central+African+Republic&zoom=4&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-13T20:07:52.007475+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/6.png
+2017-10-13T20:07:52.135237+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-13T20:07:52.135240+00:00 shinyapps[223108]:   cannot remove file 'c0af4aaba88f1af64c16b713ccef9757.rds', reason 'No such file or directory'
+2017-10-13T20:07:52.603941+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/7.png
+2017-10-13T20:07:52.623348+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-13T20:07:52.623350+00:00 shinyapps[223108]:   cannot remove file '4156152059dd4ce2318c04476d82a18b.rds', reason 'No such file or directory'
+2017-10-13T20:07:52.785660+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-13T20:07:52.765635+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/7.png
+2017-10-13T20:07:52.785663+00:00 shinyapps[223108]:   cannot remove file '956e666df61367aa4057df1d9e663912.rds', reason 'No such file or directory'
+2017-10-13T20:07:52.926991+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/7.png
+2017-10-13T20:07:52.946100+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-13T20:07:52.946102+00:00 shinyapps[223108]:   cannot remove file '93001c40404afadefd21cdc053d25187.rds', reason 'No such file or directory'
+2017-10-13T20:07:53.086150+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/8.png
+2017-10-13T20:07:53.111029+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-13T20:07:53.111033+00:00 shinyapps[223108]:   cannot remove file '1ddfbd70b17f0d03e8383c7dd8b28364.rds', reason 'No such file or directory'
+2017-10-13T20:07:53.572065+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/8.png
+2017-10-13T20:07:53.590803+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-13T20:07:53.590805+00:00 shinyapps[223108]:   cannot remove file '3d35492e2515ec2057fec27a9c17e811.rds', reason 'No such file or directory'
+2017-10-13T20:07:54.085699+00:00 shinyapps[223108]: Warning: Removed 255 rows containing non-finite values (stat_density2d).
+2017-10-13T20:07:58.645545+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-13T20:07:58.645547+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-13T20:07:58.724094+00:00 shinyapps[223108]: Warning: Removed 128 rows containing missing values (geom_point).
+2017-10-13T20:07:59.095696+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-13T20:07:59.095699+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-13T20:07:59.186831+00:00 shinyapps[223108]: Warning: Removed 166 rows containing missing values (geom_point).
+2017-10-13T20:08:00.344417+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-13T20:08:00.344419+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-13T20:08:00.432735+00:00 shinyapps[223108]: Warning: Removed 74 rows containing missing values (geom_point).
+2017-10-14T14:47:12.910757+00:00 shinyapps[223108]: 
+2017-10-14T14:47:12.910759+00:00 shinyapps[223108]: Starting R with process ID: '17'
+2017-10-14T14:47:14.295521+00:00 shinyapps[223108]: 
+2017-10-14T14:47:14.295524+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-14T14:47:14.295525+00:00 shinyapps[223108]: 
+2017-10-14T14:47:14.296214+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-14T14:47:14.296216+00:00 shinyapps[223108]: 
+2017-10-14T14:47:14.296217+00:00 shinyapps[223108]:     date
+2017-10-14T14:47:14.296217+00:00 shinyapps[223108]: 
+2017-10-14T14:47:14.329939+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-14T14:47:14.329685+00:00 shinyapps[223108]: 
+2017-10-14T14:47:14.329687+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-14T14:47:14.329688+00:00 shinyapps[223108]: 
+2017-10-14T14:47:14.329941+00:00 shinyapps[223108]: 
+2017-10-14T14:47:14.329942+00:00 shinyapps[223108]:     serverInfo
+2017-10-14T14:47:14.329942+00:00 shinyapps[223108]: 
+2017-10-14T14:47:14.383137+00:00 shinyapps[223108]: 
+2017-10-14T14:47:14.383140+00:00 shinyapps[223108]: Listening on http://127.0.0.1:40115
+2017-10-14T14:47:29.617717+00:00 shinyapps[223108]: Server version: 1.5.6-3
+2017-10-14T14:47:29.617752+00:00 shinyapps[223108]: LANG: en_US.UTF-8
+2017-10-14T14:47:29.617755+00:00 shinyapps[223108]: R version: 3.4.1
+2017-10-14T14:47:29.617777+00:00 shinyapps[223108]: shiny version: 1.0.5
+2017-10-14T14:47:29.617778+00:00 shinyapps[223108]: rmarkdown version: NA
+2017-10-14T14:47:29.829329+00:00 shinyapps[223108]: 
+2017-10-14T14:47:29.829332+00:00 shinyapps[223108]: Starting R with process ID: '30'
+2017-10-14T14:47:29.617778+00:00 shinyapps[223108]: knitr version: NA
+2017-10-14T14:47:29.617778+00:00 shinyapps[223108]: jsonlite version: 1.5
+2017-10-14T14:47:29.617779+00:00 shinyapps[223108]: htmltools version: 0.3.6
+2017-10-14T14:47:29.617779+00:00 shinyapps[223108]: RJSONIO version: 1.3.0
+2017-10-14T14:47:29.740882+00:00 shinyapps[223108]: Using jsonlite for JSON processing
+2017-10-14T14:47:30.371812+00:00 shinyapps[223108]: Loading tidyverse: ggplot2
+2017-10-14T14:47:30.371815+00:00 shinyapps[223108]: Loading tidyverse: tibble
+2017-10-14T14:47:30.371816+00:00 shinyapps[223108]: Loading tidyverse: readr
+2017-10-14T14:47:30.371816+00:00 shinyapps[223108]: Loading tidyverse: tidyr
+2017-10-14T14:47:30.371816+00:00 shinyapps[223108]: Loading tidyverse: purrr
+2017-10-14T14:47:30.486783+00:00 shinyapps[223108]: Conflicts with tidy packages ---------------------------------------------------
+2017-10-14T14:47:30.371817+00:00 shinyapps[223108]: Loading tidyverse: dplyr
+2017-10-14T14:47:30.487323+00:00 shinyapps[223108]: filter(): dplyr, stats
+2017-10-14T14:47:30.487324+00:00 shinyapps[223108]: lag():    dplyr, stats
+2017-10-14T14:47:30.713467+00:00 shinyapps[223108]: 
+2017-10-14T14:47:30.713472+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-14T14:47:30.713473+00:00 shinyapps[223108]: 
+2017-10-14T14:47:30.714148+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-14T14:47:30.714150+00:00 shinyapps[223108]: 
+2017-10-14T14:47:30.714151+00:00 shinyapps[223108]:     date
+2017-10-14T14:47:30.731227+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-14T14:47:30.731228+00:00 shinyapps[223108]: 
+2017-10-14T14:47:30.731229+00:00 shinyapps[223108]:     serverInfo
+2017-10-14T14:47:30.731229+00:00 shinyapps[223108]: 
+2017-10-14T14:47:30.786001+00:00 shinyapps[223108]: 
+2017-10-14T14:47:30.714151+00:00 shinyapps[223108]: 
+2017-10-14T14:47:30.730947+00:00 shinyapps[223108]: 
+2017-10-14T14:47:30.730949+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-14T14:47:30.730949+00:00 shinyapps[223108]: 
+2017-10-14T14:47:30.786004+00:00 shinyapps[223108]: Listening on http://127.0.0.1:33581
+2017-10-14T14:47:35.245159+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=Central+African+Republic&zoom=4&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-14T14:47:40.001501+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=Central%20African%20Republic&sensor=false
+2017-10-14T14:47:40.769648+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/6.png
+2017-10-14T14:47:40.996037+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/6.png
+2017-10-14T14:47:41.402053+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/6.png
+2017-10-14T14:47:41.551149+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/7.png
+2017-10-14T14:47:41.700028+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/7.png
+2017-10-14T14:47:41.856026+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/7.png
+2017-10-14T14:47:42.442980+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/8.png
+2017-10-14T14:47:42.298158+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/8.png
+2017-10-14T14:47:43.214508+00:00 shinyapps[223108]: Warning: Removed 255 rows containing non-finite values (stat_density2d).
+2017-10-14T14:47:45.569290+00:00 shinyapps[223108]: Warning: Removed 255 rows containing missing values (geom_point).
+2017-10-14T19:42:13.832718+00:00 shinyapps[223108]: Server version: 1.5.6-3
+2017-10-14T19:42:13.832750+00:00 shinyapps[223108]: jsonlite version: 1.5
+2017-10-14T19:42:13.832763+00:00 shinyapps[223108]: RJSONIO version: 1.3.0
+2017-10-14T19:42:13.832745+00:00 shinyapps[223108]: LANG: en_US.UTF-8
+2017-10-14T19:42:13.832749+00:00 shinyapps[223108]: shiny version: 1.0.5
+2017-10-14T19:42:13.832749+00:00 shinyapps[223108]: rmarkdown version: NA
+2017-10-14T19:42:13.832747+00:00 shinyapps[223108]: R version: 3.4.1
+2017-10-14T19:42:13.832763+00:00 shinyapps[223108]: htmltools version: 0.3.6
+2017-10-14T19:42:14.039475+00:00 shinyapps[223108]: Using jsonlite for JSON processing
+2017-10-14T19:42:13.832750+00:00 shinyapps[223108]: knitr version: NA
+2017-10-14T19:42:15.069236+00:00 shinyapps[223108]: Loading tidyverse: ggplot2
+2017-10-14T19:42:15.069238+00:00 shinyapps[223108]: Loading tidyverse: tibble
+2017-10-14T19:42:15.069239+00:00 shinyapps[223108]: Loading tidyverse: tidyr
+2017-10-14T19:42:15.069240+00:00 shinyapps[223108]: Loading tidyverse: purrr
+2017-10-14T19:42:15.069239+00:00 shinyapps[223108]: Loading tidyverse: readr
+2017-10-14T19:42:15.069240+00:00 shinyapps[223108]: Loading tidyverse: dplyr
+2017-10-14T19:42:15.198546+00:00 shinyapps[223108]: filter(): dplyr, stats
+2017-10-14T19:42:15.198029+00:00 shinyapps[223108]: Conflicts with tidy packages ---------------------------------------------------
+2017-10-14T19:42:15.198547+00:00 shinyapps[223108]: lag():    dplyr, stats
+2017-10-14T19:42:15.508492+00:00 shinyapps[223108]: 
+2017-10-14T19:42:15.508496+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-14T19:42:15.508497+00:00 shinyapps[223108]: 
+2017-10-14T19:42:15.509154+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-14T19:42:15.509156+00:00 shinyapps[223108]: 
+2017-10-14T19:42:15.509157+00:00 shinyapps[223108]:     date
+2017-10-14T19:42:15.509157+00:00 shinyapps[223108]: 
+2017-10-14T19:42:15.540032+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-14T19:42:15.540031+00:00 shinyapps[223108]: 
+2017-10-14T19:42:15.540032+00:00 shinyapps[223108]: 
+2017-10-14T19:42:15.540291+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-14T19:42:15.540292+00:00 shinyapps[223108]: 
+2017-10-14T19:42:15.540292+00:00 shinyapps[223108]:     serverInfo
+2017-10-14T19:42:15.540293+00:00 shinyapps[223108]: 
+2017-10-14T19:42:15.594168+00:00 shinyapps[223108]: 
+2017-10-14T19:42:15.594171+00:00 shinyapps[223108]: Listening on http://127.0.0.1:35930
+2017-10-14T19:42:27.161921+00:00 shinyapps[223108]: Parsed with column specification:
+2017-10-14T19:42:27.161925+00:00 shinyapps[223108]:   .default = col_character(),
+2017-10-14T19:42:27.161924+00:00 shinyapps[223108]: cols(
+2017-10-14T19:42:27.161926+00:00 shinyapps[223108]:   TIME_PRECISION = col_integer(),
+2017-10-14T19:42:27.161925+00:00 shinyapps[223108]:   GWNO = col_integer(),
+2017-10-14T19:42:27.161926+00:00 shinyapps[223108]:   YEAR = col_integer(),
+2017-10-14T19:42:27.161953+00:00 shinyapps[223108]:   LONGITUDE = col_double(),
+2017-10-14T19:42:27.161952+00:00 shinyapps[223108]:   LATITUDE = col_double(),
+2017-10-14T19:42:27.161927+00:00 shinyapps[223108]:   INTER2 = col_integer(),
+2017-10-14T19:42:27.161927+00:00 shinyapps[223108]:   INTER1 = col_integer(),
+2017-10-14T19:42:27.161950+00:00 shinyapps[223108]:   INTERACTION = col_integer(),
+2017-10-14T19:42:27.161956+00:00 shinyapps[223108]:   FATALITIES = col_integer()
+2017-10-14T19:42:27.161955+00:00 shinyapps[223108]:   GEO_PRECISION = col_integer(),
+2017-10-14T19:42:27.162135+00:00 shinyapps[223108]: See spec(...) for full column specifications.
+2017-10-14T19:42:27.161956+00:00 shinyapps[223108]: )
+2017-10-14T19:42:27.357994+00:00 shinyapps[223108]: Warning in rbind(names(probs), probs_f) :
+2017-10-14T19:42:27.357997+00:00 shinyapps[223108]:   number of columns of result is not a multiple of vector length (arg 2)
+2017-10-14T19:42:27.358639+00:00 shinyapps[223108]: Warning: 1 parsing failure.
+2017-10-14T19:42:27.358645+00:00 shinyapps[223108]: 
+2017-10-14T19:42:27.358644+00:00 shinyapps[223108]: row # A tibble: 1 x 5 col     row       col expected          actual        file expected   <int>     <chr>    <chr>           <chr>       <chr> actual 1 13194 LONGITUDE a double "\xa0-13.57806" 'ACLED.csv' file # A tibble: 1 x 5
+2017-10-14T19:42:28.951914+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=Central+African+Republic&zoom=4&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-14T19:42:32.610961+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=Central%20African%20Republic&sensor=false
+2017-10-14T19:42:33.379042+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/6.png
+2017-10-14T19:42:33.603851+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/6.png
+2017-10-14T19:42:34.199122+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/7.png
+2017-10-14T19:42:34.050004+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/7.png
+2017-10-14T19:42:34.357300+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/7.png
+2017-10-14T19:42:34.505419+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/7.png
+2017-10-14T19:42:34.983976+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/8.png
+2017-10-14T19:42:35.129349+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/8.png
+2017-10-14T19:42:35.736784+00:00 shinyapps[223108]: Warning: Removed 255 rows containing non-finite values (stat_density2d).
+2017-10-14T19:42:41.399765+00:00 shinyapps[223108]: Warning: Removed 255 rows containing missing values (geom_point).
+2017-10-14T19:42:47.585039+00:00 shinyapps[223108]: Warning: Removed 255 rows containing missing values (geom_point).
+2017-10-14T19:43:15.684628+00:00 shinyapps[223108]: Warning in EVENT_TYPE == input$event_type :
+2017-10-14T19:43:15.684630+00:00 shinyapps[223108]:   longer object length is not a multiple of shorter object length
+2017-10-14T19:43:15.774134+00:00 shinyapps[223108]: Warning: Removed 178 rows containing missing values (geom_point).
+2017-10-16T21:33:48.362957+00:00 shinyapps[223108]: Server version: 1.5.6-3
+2017-10-16T21:33:48.362983+00:00 shinyapps[223108]: LANG: en_US.UTF-8
+2017-10-16T21:33:48.362985+00:00 shinyapps[223108]: R version: 3.4.1
+2017-10-16T21:33:48.362987+00:00 shinyapps[223108]: shiny version: 1.0.5
+2017-10-16T21:33:48.362987+00:00 shinyapps[223108]: rmarkdown version: NA
+2017-10-16T21:33:48.362988+00:00 shinyapps[223108]: knitr version: NA
+2017-10-16T21:33:48.362988+00:00 shinyapps[223108]: jsonlite version: 1.5
+2017-10-16T21:33:48.362988+00:00 shinyapps[223108]: RJSONIO version: 1.3.0
+2017-10-16T21:33:48.362988+00:00 shinyapps[223108]: htmltools version: 0.3.6
+2017-10-16T21:33:48.516506+00:00 shinyapps[223108]: Using jsonlite for JSON processing
+2017-10-16T21:33:48.626131+00:00 shinyapps[223108]: 
+2017-10-16T21:33:48.626133+00:00 shinyapps[223108]: Starting R with process ID: '16'
+2017-10-16T21:33:49.240202+00:00 shinyapps[223108]: Loading tidyverse: ggplot2
+2017-10-16T21:33:49.240204+00:00 shinyapps[223108]: Loading tidyverse: tibble
+2017-10-16T21:33:49.240204+00:00 shinyapps[223108]: Loading tidyverse: tidyr
+2017-10-16T21:33:49.240205+00:00 shinyapps[223108]: Loading tidyverse: purrr
+2017-10-16T21:33:49.240205+00:00 shinyapps[223108]: Loading tidyverse: readr
+2017-10-16T21:33:49.240205+00:00 shinyapps[223108]: Loading tidyverse: dplyr
+2017-10-16T21:33:49.370862+00:00 shinyapps[223108]: Conflicts with tidy packages ---------------------------------------------------
+2017-10-16T21:33:49.371419+00:00 shinyapps[223108]: lag():    dplyr, stats
+2017-10-16T21:33:49.371418+00:00 shinyapps[223108]: filter(): dplyr, stats
+2017-10-16T21:33:49.603840+00:00 shinyapps[223108]: 
+2017-10-16T21:33:49.603847+00:00 shinyapps[223108]: 
+2017-10-16T21:33:49.603845+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-16T21:33:49.604493+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-16T21:33:49.604495+00:00 shinyapps[223108]: 
+2017-10-16T21:33:49.604496+00:00 shinyapps[223108]:     date
+2017-10-16T21:33:49.604496+00:00 shinyapps[223108]: 
+2017-10-16T21:33:49.622201+00:00 shinyapps[223108]: 
+2017-10-16T21:33:49.622203+00:00 shinyapps[223108]: 
+2017-10-16T21:33:49.622202+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-16T21:33:49.622459+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-16T21:33:49.622462+00:00 shinyapps[223108]:     serverInfo
+2017-10-16T21:33:49.622461+00:00 shinyapps[223108]: 
+2017-10-16T21:33:49.622462+00:00 shinyapps[223108]: 
+2017-10-16T21:33:49.676290+00:00 shinyapps[223108]: Listening on http://127.0.0.1:43768
+2017-10-16T21:33:49.676288+00:00 shinyapps[223108]: 
+2017-10-16T21:34:09.800454+00:00 shinyapps[223108]: Server version: 1.5.6-3
+2017-10-16T21:34:09.800479+00:00 shinyapps[223108]: LANG: en_US.UTF-8
+2017-10-16T21:34:09.800481+00:00 shinyapps[223108]: R version: 3.4.1
+2017-10-16T21:34:09.800482+00:00 shinyapps[223108]: shiny version: 1.0.5
+2017-10-16T21:34:09.800483+00:00 shinyapps[223108]: rmarkdown version: NA
+2017-10-16T21:34:09.800483+00:00 shinyapps[223108]: knitr version: NA
+2017-10-16T21:34:09.800496+00:00 shinyapps[223108]: jsonlite version: 1.5
+2017-10-16T21:34:09.800496+00:00 shinyapps[223108]: RJSONIO version: 1.3.0
+2017-10-16T21:34:10.046275+00:00 shinyapps[223108]: 
+2017-10-16T21:34:10.046292+00:00 shinyapps[223108]: Starting R with process ID: '33'
+2017-10-16T21:34:09.800496+00:00 shinyapps[223108]: htmltools version: 0.3.6
+2017-10-16T21:34:09.939646+00:00 shinyapps[223108]: Using jsonlite for JSON processing
+2017-10-16T21:34:10.993314+00:00 shinyapps[223108]: 
+2017-10-16T21:34:10.993318+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-16T21:34:10.993974+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-16T21:34:10.993319+00:00 shinyapps[223108]: 
+2017-10-16T21:34:10.993975+00:00 shinyapps[223108]: 
+2017-10-16T21:34:11.011699+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-16T21:34:11.011700+00:00 shinyapps[223108]: 
+2017-10-16T21:34:11.011701+00:00 shinyapps[223108]: 
+2017-10-16T21:34:11.011701+00:00 shinyapps[223108]:     serverInfo
+2017-10-16T21:34:11.065331+00:00 shinyapps[223108]: 
+2017-10-16T21:34:10.993976+00:00 shinyapps[223108]:     date
+2017-10-16T21:34:11.065334+00:00 shinyapps[223108]: Listening on http://127.0.0.1:35231
+2017-10-16T21:34:10.993976+00:00 shinyapps[223108]: 
+2017-10-16T21:34:11.011431+00:00 shinyapps[223108]: 
+2017-10-16T21:34:11.011434+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-16T21:34:11.011435+00:00 shinyapps[223108]: 
+2017-10-16T21:34:12.052077+00:00 shinyapps[223108]: Parsed with column specification:
+2017-10-16T21:34:12.052081+00:00 shinyapps[223108]:   GWNO = col_integer(),
+2017-10-16T21:34:12.052081+00:00 shinyapps[223108]:   .default = col_character(),
+2017-10-16T21:34:12.052080+00:00 shinyapps[223108]: cols(
+2017-10-16T21:34:12.052268+00:00 shinyapps[223108]: See spec(...) for full column specifications.
+2017-10-16T21:34:12.052084+00:00 shinyapps[223108]:   GEO_PRECISION = col_integer(),
+2017-10-16T21:34:12.052084+00:00 shinyapps[223108]:   FATALITIES = col_integer()
+2017-10-16T21:34:12.052084+00:00 shinyapps[223108]: )
+2017-10-16T21:34:12.052082+00:00 shinyapps[223108]:   YEAR = col_integer(),
+2017-10-16T21:34:12.052082+00:00 shinyapps[223108]:   TIME_PRECISION = col_integer(),
+2017-10-16T21:34:12.052082+00:00 shinyapps[223108]:   INTER1 = col_integer(),
+2017-10-16T21:34:12.052083+00:00 shinyapps[223108]:   INTER2 = col_integer(),
+2017-10-16T21:34:12.052083+00:00 shinyapps[223108]:   INTERACTION = col_integer(),
+2017-10-16T21:34:12.052083+00:00 shinyapps[223108]:   LATITUDE = col_double(),
+2017-10-16T21:34:14.977437+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=Central%20African%20Republic&sensor=false
+2017-10-16T21:34:15.784219+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/6.png
+2017-10-16T21:34:16.018840+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/6.png
+2017-10-16T21:34:16.470309+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/7.png
+2017-10-16T21:34:16.620242+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/7.png
+2017-10-16T21:34:16.770574+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/7.png
+2017-10-16T21:34:16.918902+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/7.png
+2017-10-16T21:34:17.358974+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/8.png
+2017-10-16T21:34:17.553469+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/8.png
+2017-10-16T21:34:18.150761+00:00 shinyapps[223108]: Warning: Error in : Discrete value supplied to continuous scale
+2017-10-16T21:34:18.156790+00:00 shinyapps[223108]:     128: self$range$train
+2017-10-16T21:34:18.156787+00:00 shinyapps[223108]: Stack trace (innermost first):
+2017-10-16T21:34:18.156790+00:00 shinyapps[223108]:     127: f
+2017-10-16T21:34:18.156791+00:00 shinyapps[223108]:     126: scales[[i]][[method]]
+2017-10-16T21:34:18.156791+00:00 shinyapps[223108]:     125: FUN
+2017-10-16T21:34:18.156791+00:00 shinyapps[223108]:     124: lapply
+2017-10-16T21:34:18.156788+00:00 shinyapps[223108]:     130: scales::train_continuous
+2017-10-16T21:34:18.156789+00:00 shinyapps[223108]:     129: f
+2017-10-16T21:34:18.156792+00:00 shinyapps[223108]:     122: lapply
+2017-10-16T21:34:18.156793+00:00 shinyapps[223108]:     121: scale_apply
+2017-10-16T21:34:18.156793+00:00 shinyapps[223108]:     120: f
+2017-10-16T21:34:18.156793+00:00 shinyapps[223108]:     119: self$train_scales
+2017-10-16T21:34:18.156794+00:00 shinyapps[223108]:     118: f
+2017-10-16T21:34:18.156794+00:00 shinyapps[223108]:     117: self$facet$train_positions
+2017-10-16T21:34:18.156794+00:00 shinyapps[223108]:     116: f
+2017-10-16T21:34:18.156792+00:00 shinyapps[223108]:     123: FUN
+2017-10-16T21:34:18.156796+00:00 shinyapps[223108]:     112: print
+2017-10-16T21:34:18.156795+00:00 shinyapps[223108]:     113: print.ggplot
+2017-10-16T21:34:18.156795+00:00 shinyapps[223108]:     115: layout$train_position
+2017-10-16T21:34:18.156795+00:00 shinyapps[223108]:     114: ggplot2::ggplot_build
+2017-10-16T21:34:18.156796+00:00 shinyapps[223108]:     101: <reactive:plotObj>
+2017-10-16T21:34:18.156796+00:00 shinyapps[223108]:      90: plotObj
+2017-10-16T21:34:18.156796+00:00 shinyapps[223108]:      89: origRenderFunc
+2017-10-16T21:34:18.156797+00:00 shinyapps[223108]:      88: output$africa
+2017-10-16T21:34:18.156797+00:00 shinyapps[223108]:      13: runApp
+2017-10-16T21:34:18.156797+00:00 shinyapps[223108]:      12: fn
+2017-10-16T21:34:18.156798+00:00 shinyapps[223108]:      10: tryCatchOne
+2017-10-16T21:34:18.156798+00:00 shinyapps[223108]:       9: tryCatchList
+2017-10-16T21:34:18.156798+00:00 shinyapps[223108]:      11: doTryCatch
+2017-10-16T21:34:18.156799+00:00 shinyapps[223108]:       8: tryCatch
+2017-10-16T21:34:18.156799+00:00 shinyapps[223108]:       7: connect$retry
+2017-10-16T21:34:18.156799+00:00 shinyapps[223108]:       6: eval
+2017-10-16T21:34:18.156800+00:00 shinyapps[223108]:       5: eval
+2017-10-16T21:34:18.156800+00:00 shinyapps[223108]:       4: eval
+2017-10-16T21:34:18.156800+00:00 shinyapps[223108]:       3: eval
+2017-10-16T21:34:18.156801+00:00 shinyapps[223108]:       2: eval.parent
+2017-10-16T21:34:18.156801+00:00 shinyapps[223108]:       1: local
+2017-10-16T21:34:27.097045+00:00 shinyapps[223108]: Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=Nigeria&zoom=4&size=640x640&scale=2&maptype=terrain&sensor=false
+2017-10-16T21:34:31.166701+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=Nigeria&sensor=false
+2017-10-16T21:34:32.276537+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/6.png
+2017-10-16T21:34:32.296251+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-16T21:34:32.296254+00:00 shinyapps[223108]:   cannot remove file 'c0af4aaba88f1af64c16b713ccef9757.rds', reason 'No such file or directory'
+2017-10-16T21:34:32.438509+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/7.png
+2017-10-16T21:34:32.457481+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-16T21:34:32.457484+00:00 shinyapps[223108]:   cannot remove file 'e73b95a19ee939825c26262fa0e8a03c.rds', reason 'No such file or directory'
+2017-10-16T21:34:32.599523+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/7.png
+2017-10-16T21:34:32.618760+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-16T21:34:32.618763+00:00 shinyapps[223108]:   cannot remove file '4156152059dd4ce2318c04476d82a18b.rds', reason 'No such file or directory'
+2017-10-16T21:34:32.761686+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/7.png
+2017-10-16T21:34:32.787073+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-16T21:34:32.787076+00:00 shinyapps[223108]:   cannot remove file '956e666df61367aa4057df1d9e663912.rds', reason 'No such file or directory'
+2017-10-16T21:34:33.245752+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/8.png
+2017-10-16T21:34:33.264726+00:00 shinyapps[223108]: Warning in file.remove(index[[url]]) :
+2017-10-16T21:34:33.264729+00:00 shinyapps[223108]:   cannot remove file 'b322c3c40980b3e23920d648dc6c7b0b.rds', reason 'No such file or directory'
+2017-10-16T21:34:33.675685+00:00 shinyapps[223108]: Warning: Error in : Discrete value supplied to continuous scale
+2017-10-16T21:34:33.680255+00:00 shinyapps[223108]: Stack trace (innermost first):
+2017-10-16T21:34:33.680256+00:00 shinyapps[223108]:     130: scales::train_continuous
+2017-10-16T21:34:33.680257+00:00 shinyapps[223108]:     129: f
+2017-10-16T21:34:33.680258+00:00 shinyapps[223108]:     128: self$range$train
+2017-10-16T21:34:33.680258+00:00 shinyapps[223108]:     127: f
+2017-10-16T21:34:33.680258+00:00 shinyapps[223108]:     126: scales[[i]][[method]]
+2017-10-16T21:34:33.680259+00:00 shinyapps[223108]:     125: FUN
+2017-10-16T21:34:33.680260+00:00 shinyapps[223108]:     123: FUN
+2017-10-16T21:34:33.680259+00:00 shinyapps[223108]:     124: lapply
+2017-10-16T21:34:33.680260+00:00 shinyapps[223108]:     121: scale_apply
+2017-10-16T21:34:33.680260+00:00 shinyapps[223108]:     122: lapply
+2017-10-16T21:34:33.680261+00:00 shinyapps[223108]:     120: f
+2017-10-16T21:34:33.680261+00:00 shinyapps[223108]:     119: self$train_scales
+2017-10-16T21:34:33.680261+00:00 shinyapps[223108]:     118: f
+2017-10-16T21:34:33.680262+00:00 shinyapps[223108]:     117: self$facet$train_positions
+2017-10-16T21:34:33.680262+00:00 shinyapps[223108]:     116: f
+2017-10-16T21:34:33.680263+00:00 shinyapps[223108]:     115: layout$train_position
+2017-10-16T21:34:33.680263+00:00 shinyapps[223108]:     114: ggplot2::ggplot_build
+2017-10-16T21:34:33.680263+00:00 shinyapps[223108]:     113: print.ggplot
+2017-10-16T21:34:33.680266+00:00 shinyapps[223108]:     112: print
+2017-10-16T21:34:33.680266+00:00 shinyapps[223108]:     101: <reactive:plotObj>
+2017-10-16T21:34:33.680266+00:00 shinyapps[223108]:      90: plotObj
+2017-10-16T21:34:33.680267+00:00 shinyapps[223108]:      89: origRenderFunc
+2017-10-16T21:34:33.680267+00:00 shinyapps[223108]:      88: output$africa
+2017-10-16T21:34:33.680267+00:00 shinyapps[223108]:      13: runApp
+2017-10-16T21:34:33.680268+00:00 shinyapps[223108]:      12: fn
+2017-10-16T21:34:33.680268+00:00 shinyapps[223108]:      11: doTryCatch
+2017-10-16T21:34:33.680268+00:00 shinyapps[223108]:      10: tryCatchOne
+2017-10-16T21:34:33.680269+00:00 shinyapps[223108]:       9: tryCatchList
+2017-10-16T21:34:33.680269+00:00 shinyapps[223108]:       8: tryCatch
+2017-10-16T21:34:33.680269+00:00 shinyapps[223108]:       7: connect$retry
+2017-10-16T21:34:33.680270+00:00 shinyapps[223108]:       6: eval
+2017-10-16T21:34:33.680271+00:00 shinyapps[223108]:       5: eval
+2017-10-16T21:34:33.680271+00:00 shinyapps[223108]:       4: eval
+2017-10-16T21:34:33.680272+00:00 shinyapps[223108]:       3: eval
+2017-10-16T21:34:33.680272+00:00 shinyapps[223108]:       2: eval.parent
+2017-10-16T21:34:33.680273+00:00 shinyapps[223108]:       1: local
+2017-10-16T21:38:34.045786+00:00 shinyapps[223108]: Server version: 1.5.6-3
+2017-10-16T21:38:34.045833+00:00 shinyapps[223108]: R version: 3.4.1
+2017-10-16T21:38:34.045835+00:00 shinyapps[223108]: rmarkdown version: NA
+2017-10-16T21:38:34.045834+00:00 shinyapps[223108]: shiny version: 1.0.5
+2017-10-16T21:38:34.045835+00:00 shinyapps[223108]: knitr version: NA
+2017-10-16T21:38:34.045835+00:00 shinyapps[223108]: jsonlite version: 1.5
+2017-10-16T21:38:34.045835+00:00 shinyapps[223108]: RJSONIO version: 1.3.0
+2017-10-16T21:38:34.045836+00:00 shinyapps[223108]: htmltools version: 0.3.6
+2017-10-16T21:38:34.290972+00:00 shinyapps[223108]: 
+2017-10-16T21:38:34.184251+00:00 shinyapps[223108]: Using jsonlite for JSON processing
+2017-10-16T21:38:34.045830+00:00 shinyapps[223108]: LANG: en_US.UTF-8
+2017-10-16T21:38:34.290976+00:00 shinyapps[223108]: Starting R with process ID: '16'
+2017-10-16T21:38:35.244832+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-16T21:38:35.245085+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-16T21:38:35.245086+00:00 shinyapps[223108]: 
+2017-10-16T21:38:35.245087+00:00 shinyapps[223108]:     serverInfo
+2017-10-16T21:38:35.226913+00:00 shinyapps[223108]: 
+2017-10-16T21:38:35.245087+00:00 shinyapps[223108]: 
+2017-10-16T21:38:35.226916+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-16T21:38:35.294083+00:00 shinyapps[223108]: Error in value[[3L]](cond) : cannot change working directory
+2017-10-16T21:38:35.226917+00:00 shinyapps[223108]: 
+2017-10-16T21:38:35.294085+00:00 shinyapps[223108]: Calls: local ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+2017-10-16T21:38:35.227588+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-16T21:38:35.294112+00:00 shinyapps[223108]: Execution halted
+2017-10-16T21:38:35.227589+00:00 shinyapps[223108]:     date
+2017-10-16T21:38:35.227589+00:00 shinyapps[223108]: 
+2017-10-16T21:38:35.244830+00:00 shinyapps[223108]: 
+2017-10-16T21:38:35.227590+00:00 shinyapps[223108]: 
+2017-10-16T21:38:35.244833+00:00 shinyapps[223108]: 
+2017-10-16T21:38:43.918138+00:00 shinyapps[223108]: Server version: 1.5.6-3
+2017-10-16T21:38:43.918167+00:00 shinyapps[223108]: LANG: en_US.UTF-8
+2017-10-16T21:38:43.918173+00:00 shinyapps[223108]: R version: 3.4.1
+2017-10-16T21:38:43.918190+00:00 shinyapps[223108]: shiny version: 1.0.5
+2017-10-16T21:38:43.918191+00:00 shinyapps[223108]: rmarkdown version: NA
+2017-10-16T21:38:43.918192+00:00 shinyapps[223108]: knitr version: NA
+2017-10-16T21:38:43.918193+00:00 shinyapps[223108]: jsonlite version: 1.5
+2017-10-16T21:38:43.918193+00:00 shinyapps[223108]: RJSONIO version: 1.3.0
+2017-10-16T21:38:43.918209+00:00 shinyapps[223108]: htmltools version: 0.3.6
+2017-10-16T21:38:44.057768+00:00 shinyapps[223108]: Using jsonlite for JSON processing
+2017-10-16T21:38:44.160819+00:00 shinyapps[223108]: 
+2017-10-16T21:38:44.160822+00:00 shinyapps[223108]: Starting R with process ID: '33'
+2017-10-16T21:38:44.726910+00:00 shinyapps[223108]: Loading tidyverse: ggplot2
+2017-10-16T21:38:44.842659+00:00 shinyapps[223108]: Conflicts with tidy packages ---------------------------------------------------
+2017-10-16T21:38:44.726913+00:00 shinyapps[223108]: Loading tidyverse: tibble
+2017-10-16T21:38:44.726914+00:00 shinyapps[223108]: Loading tidyverse: tidyr
+2017-10-16T21:38:44.726914+00:00 shinyapps[223108]: Loading tidyverse: purrr
+2017-10-16T21:38:44.726914+00:00 shinyapps[223108]: Loading tidyverse: readr
+2017-10-16T21:38:44.843180+00:00 shinyapps[223108]: filter(): dplyr, stats
+2017-10-16T21:38:44.726915+00:00 shinyapps[223108]: Loading tidyverse: dplyr
+2017-10-16T21:38:44.843182+00:00 shinyapps[223108]: lag():    dplyr, stats
+2017-10-16T21:38:45.052791+00:00 shinyapps[223108]: 
+2017-10-16T21:38:45.052810+00:00 shinyapps[223108]: 
+2017-10-16T21:38:45.052808+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-16T21:38:45.053482+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-16T21:38:45.053484+00:00 shinyapps[223108]: 
+2017-10-16T21:38:45.053484+00:00 shinyapps[223108]:     date
+2017-10-16T21:38:45.069980+00:00 shinyapps[223108]: 
+2017-10-16T21:38:45.069981+00:00 shinyapps[223108]: 
+2017-10-16T21:38:45.070263+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-16T21:38:45.069981+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-16T21:38:45.070264+00:00 shinyapps[223108]:     serverInfo
+2017-10-16T21:38:45.070263+00:00 shinyapps[223108]: 
+2017-10-16T21:38:45.070264+00:00 shinyapps[223108]: 
+2017-10-16T21:38:45.053485+00:00 shinyapps[223108]: 
+2017-10-16T21:38:45.118045+00:00 shinyapps[223108]: Execution halted
+2017-10-16T21:38:45.118041+00:00 shinyapps[223108]: Error in value[[3L]](cond) : cannot change working directory
+2017-10-16T21:38:45.118043+00:00 shinyapps[223108]: Calls: local ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+2017-10-16T21:41:04.534491+00:00 shinyapps[223108]: Loading tidyverse: tibble
+2017-10-16T21:41:04.534489+00:00 shinyapps[223108]: Loading tidyverse: ggplot2
+2017-10-16T21:41:04.534493+00:00 shinyapps[223108]: Loading tidyverse: readr
+2017-10-16T21:41:04.534493+00:00 shinyapps[223108]: Loading tidyverse: tidyr
+2017-10-16T21:41:04.534493+00:00 shinyapps[223108]: Loading tidyverse: purrr
+2017-10-16T21:41:04.534494+00:00 shinyapps[223108]: Loading tidyverse: dplyr
+2017-10-16T21:41:04.650192+00:00 shinyapps[223108]: filter(): dplyr, stats
+2017-10-16T21:41:04.649658+00:00 shinyapps[223108]: Conflicts with tidy packages ---------------------------------------------------
+2017-10-16T21:41:04.650193+00:00 shinyapps[223108]: lag():    dplyr, stats
+2017-10-16T21:41:04.864076+00:00 shinyapps[223108]: 
+2017-10-16T21:41:04.864867+00:00 shinyapps[223108]: The following object is masked from ‘package:base’:
+2017-10-16T21:41:04.864079+00:00 shinyapps[223108]: Attaching package: ‘lubridate’
+2017-10-16T21:41:04.864080+00:00 shinyapps[223108]: 
+2017-10-16T21:41:04.883267+00:00 shinyapps[223108]: The following object is masked from ‘package:shiny’:
+2017-10-16T21:41:04.883268+00:00 shinyapps[223108]: 
+2017-10-16T21:41:04.883269+00:00 shinyapps[223108]:     serverInfo
+2017-10-16T21:41:04.883269+00:00 shinyapps[223108]: 
+2017-10-16T21:41:04.936529+00:00 shinyapps[223108]: 
+2017-10-16T21:41:04.864868+00:00 shinyapps[223108]: 
+2017-10-16T21:41:04.864869+00:00 shinyapps[223108]:     date
+2017-10-16T21:41:04.882971+00:00 shinyapps[223108]: 
+2017-10-16T21:41:04.882974+00:00 shinyapps[223108]: 
+2017-10-16T21:41:04.864869+00:00 shinyapps[223108]: 
+2017-10-16T21:41:04.936532+00:00 shinyapps[223108]: Listening on http://127.0.0.1:35628
+2017-10-16T21:41:04.882973+00:00 shinyapps[223108]: Attaching package: ‘rsconnect’
+2017-10-16T21:41:14.368940+00:00 shinyapps[223108]: cols(
+2017-10-16T21:41:14.368942+00:00 shinyapps[223108]:   GWNO = col_integer(),
+2017-10-16T21:41:14.368945+00:00 shinyapps[223108]:   FATALITIES = col_integer()
+2017-10-16T21:41:14.368946+00:00 shinyapps[223108]: )
+2017-10-16T21:41:14.368943+00:00 shinyapps[223108]:   TIME_PRECISION = col_integer(),
+2017-10-16T21:41:14.369113+00:00 shinyapps[223108]: See spec(...) for full column specifications.
+2017-10-16T21:41:14.368943+00:00 shinyapps[223108]:   INTER1 = col_integer(),
+2017-10-16T21:41:14.368944+00:00 shinyapps[223108]:   INTERACTION = col_integer(),
+2017-10-16T21:41:14.368945+00:00 shinyapps[223108]:   GEO_PRECISION = col_integer(),
+2017-10-16T21:41:14.368944+00:00 shinyapps[223108]:   LATITUDE = col_double(),
+2017-10-16T21:41:14.368937+00:00 shinyapps[223108]: Parsed with column specification:
+2017-10-16T21:41:14.368942+00:00 shinyapps[223108]:   .default = col_character(),
+2017-10-16T21:41:14.368944+00:00 shinyapps[223108]:   INTER2 = col_integer(),
+2017-10-16T21:41:14.368942+00:00 shinyapps[223108]:   YEAR = col_integer(),
+2017-10-16T21:41:16.731188+00:00 shinyapps[223108]: Information from URL : http://maps.googleapis.com/maps/api/geocode/json?address=Central%20African%20Republic&sensor=false
+2017-10-16T21:41:17.495330+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/6.png
+2017-10-16T21:41:17.722376+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/6.png
+2017-10-16T21:41:18.168765+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/7/7.png
+2017-10-16T21:41:18.317732+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/8/7.png
+2017-10-16T21:41:18.467300+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/7.png
+2017-10-16T21:41:18.616291+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/7.png
+2017-10-16T21:41:19.062821+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/9/8.png
+2017-10-16T21:41:19.208152+00:00 shinyapps[223108]: Map from URL : http://tile.stamen.com/toner/4/10/8.png
+2017-10-16T21:41:19.784035+00:00 shinyapps[223108]: Stack trace (innermost first):
+2017-10-16T21:41:19.784044+00:00 shinyapps[223108]:     112: print
+2017-10-16T21:41:19.778077+00:00 shinyapps[223108]: Warning: Error in : Discrete value supplied to continuous scale
+2017-10-16T21:41:19.784040+00:00 shinyapps[223108]:     122: lapply
+2017-10-16T21:41:19.784041+00:00 shinyapps[223108]:     121: scale_apply
+2017-10-16T21:41:19.784041+00:00 shinyapps[223108]:     120: f
+2017-10-16T21:41:19.784042+00:00 shinyapps[223108]:     119: self$train_scales
+2017-10-16T21:41:19.784042+00:00 shinyapps[223108]:     118: f
+2017-10-16T21:41:19.784043+00:00 shinyapps[223108]:     117: self$facet$train_positions
+2017-10-16T21:41:19.784043+00:00 shinyapps[223108]:     116: f
+2017-10-16T21:41:19.784043+00:00 shinyapps[223108]:     115: layout$train_position
+2017-10-16T21:41:19.784044+00:00 shinyapps[223108]:     114: ggplot2::ggplot_build
+2017-10-16T21:41:19.784044+00:00 shinyapps[223108]:     113: print.ggplot
+2017-10-16T21:41:19.784038+00:00 shinyapps[223108]:     128: self$range$train
+2017-10-16T21:41:19.784046+00:00 shinyapps[223108]:      88: output$africa
+2017-10-16T21:41:19.784037+00:00 shinyapps[223108]:     129: f
+2017-10-16T21:41:19.784045+00:00 shinyapps[223108]:      90: plotObj
+2017-10-16T21:41:19.784036+00:00 shinyapps[223108]:     130: scales::train_continuous
+2017-10-16T21:41:19.784045+00:00 shinyapps[223108]:     101: <reactive:plotObj>
+2017-10-16T21:41:19.784047+00:00 shinyapps[223108]:       9: tryCatchList
+2017-10-16T21:41:19.784039+00:00 shinyapps[223108]:     124: lapply
+2017-10-16T21:41:19.784038+00:00 shinyapps[223108]:     127: f
+2017-10-16T21:41:19.784038+00:00 shinyapps[223108]:     126: scales[[i]][[method]]
+2017-10-16T21:41:19.784039+00:00 shinyapps[223108]:     125: FUN
+2017-10-16T21:41:19.784047+00:00 shinyapps[223108]:      12: fn
+2017-10-16T21:41:19.784047+00:00 shinyapps[223108]:      10: tryCatchOne
+2017-10-16T21:41:19.784048+00:00 shinyapps[223108]:       7: connect$retry
+2017-10-16T21:41:19.784048+00:00 shinyapps[223108]:       6: eval
+2017-10-16T21:41:19.784040+00:00 shinyapps[223108]:     123: FUN
+2017-10-16T21:41:19.784048+00:00 shinyapps[223108]:       8: tryCatch
+2017-10-16T21:41:19.784047+00:00 shinyapps[223108]:      11: doTryCatch
+2017-10-16T21:41:19.784045+00:00 shinyapps[223108]:      89: origRenderFunc
+2017-10-16T21:41:19.784046+00:00 shinyapps[223108]:      13: runApp
+2017-10-16T21:41:19.784049+00:00 shinyapps[223108]:       5: eval
+2017-10-16T21:41:19.784049+00:00 shinyapps[223108]:       4: eval
+2017-10-16T21:41:19.784049+00:00 shinyapps[223108]:       3: eval
+2017-10-16T21:41:19.784050+00:00 shinyapps[223108]:       2: eval.parent
+2017-10-16T21:41:19.784050+00:00 shinyapps[223108]:       1: local

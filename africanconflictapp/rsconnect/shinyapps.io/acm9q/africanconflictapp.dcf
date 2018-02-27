@@ -1,0 +1,13 @@
+name: africanconflictapp
+title: africanconflictapp
+username:
+account: acm9q
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 223108
+bundleId: 1077569
+url: https://acm9q.shinyapps.io/africanconflictapp/
+when: 1510782840.91756
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: ACLED-All-Africa-File_20170101-to-20171111.xlsx|ACLED.xlsx|app.txt|appnotes.R|logs.txt
