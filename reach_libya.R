@@ -187,10 +187,13 @@ events_over_time<-ggarrange(p_events,
 events_over_time
 
 # fatalities by event type:
+# Updated but recheck for accuracy
 acled %>% 
-  count(event_type) %>% 
-  mutate(event_type = fct_reorder(event_type, n)) %>% 
-  ggplot(aes(x = event_type, y = n, fill = event_type)) +
+  group_by(event_type) %>%
+  summarize(fatalities = sum(fatalities)) %>%
+  mutate(event_type = fct_reorder(event_type, fatalities)) %>% 
+  filter(fatalities >0) %>% 
+  ggplot(aes(x = event_type, y = fatalities, fill = event_type)) +
   geom_col() +
   coord_flip()+
   theme_few()+
@@ -198,8 +201,8 @@ acled %>%
   guides(fill=FALSE) +
   labs(
     title= "Fatalities by ACLED Event Type",
-    x = "Number of Fatalities",
-    y = "Event Type"
+    y = "Number of Fatalities",
+    x = "Event Type"
   )
 
 ##########################################################################
@@ -211,7 +214,7 @@ set_distance<-function(k){
   return(k*1000)
 }
 
-MAX_D<-set_distance(15)
+MAX_D<-set_distance(1)
 
 acled
 events<-acled %>%
@@ -222,7 +225,7 @@ events<-acled %>%
 
 reach
 locs<-reach %>%
-  select(latitude, longitude, Q2_1NumberofStudentsTotalBefore, Q2_1NumberofStudentsTotalNow, 
+  select(latitude, longitude, id, Q2_1NumberofStudentsTotalBefore, Q2_1NumberofStudentsTotalNow, 
          Q2_1NumberofStudentsBoysBefore,Q2_1NumberofStudentsBoysNow, Q2_1NumberofStudentsGirlsBefore, 
          Q2_1NumberofStudentsGirlsNow, Q4_3Damaged, Q5_2_aUsedForBefore4, QII_1Province, 
          Q1_1LevelofSchoolPrimary,  Q1_1LevelofSchoolPrep, Q4_3_bWhen) %>%
@@ -316,14 +319,14 @@ locs %>%
   scale_color_colorblind(labels = c("No", "Yes"))
 
 locs_data<-locs %>%
-  mutate(tx = if_else(total_count == 0, 0, 1)) %>% 
+  mutate(tx_fatal = if_else(total_count == 0, 0, 1)) %>% 
+  mutate(tx_event = if_else(num_events  == 0, 0, 1)) %>% 
   rename(pre = Q2_1NumberofStudentsTotalBefore) %>% 
   rename(post = Q2_1NumberofStudentsTotalNow) %>% 
   gather(key = time, value = students, pre , post) %>% 
   mutate(took_damage= if_else(Q4_3_bWhen==2, 1, 0)) %>% 
-  select(num_events, total_count, tx, time, students, took_damage, Q5_2_aUsedForBefore4, 
+  select(id, num_events, total_count, tx_fatal, tx_event, time, students, took_damage, Q5_2_aUsedForBefore4, 
          QII_1Province, Q1_1LevelofSchoolPrimary, Q1_1LevelofSchoolPrep) %>% 
-  unite("group", c("tx", "time"), remove=FALSE) %>%
   filter(students != 0)%>% 
   rename(high_school = Q1_1LevelofSchoolPrep) %>% 
   rename(elementary = Q1_1LevelofSchoolPrimary) %>% 
@@ -331,7 +334,12 @@ locs_data<-locs %>%
 
 
 table(locs_data$Q1_1LevelofSchoolPrimary)
-locs_data
+locs_data %>% 
+  write_csv("reach_libya_dd5km.csv")
+
+
+
+
 
 
 ###########################
