@@ -26,7 +26,7 @@ library(tidyverse)
 # Read Data
 
 setwd("V:\\reach_libya") # or your wd
-reach<-read_xlsx("reach_lby_nationalschoolsassessment_complete_db_reliable__not_reliable_18oct2012.xlsx") 
+reach2<-read_xlsx("reach_lby_nationalschoolsassessment_complete_db_reliable__not_reliable_18oct2012.xlsx") 
 acled<-read_csv("2011-01-31-2012-03-01-Libya.csv")
 reach
 reach$Q1_1LevelofSchoolPrimary<-  as.numeric(reach$Q1_1LevelofSchoolPrimary)
@@ -34,11 +34,13 @@ reach$Q1_1LevelofSchoolPrep<-     as.numeric(reach$Q1_1LevelofSchoolPrep)
 reach<-reach %>% 
   filter(Q1_1LevelofSchoolPrimary+Q1_1LevelofSchoolPrep != 0)
 
-
-
+reach
+reach3<-read_xlsx("reach_lby_nationalschoolsassessment_complete_db_reliable__not_reliable_18oct2012 (1).xlsx")
+table(reach3$RELIABLE)
 
 # initial exploration
 reach$change<-reach$Q2_1NumberofStudentsTotalBefore - reach$Q2_1NumberofStudentsTotalNow
+sum(reach$change)
 hist(reach$change)
 reach$student_changes <- as.factor(ifelse((reach$change > 0), "lost students", "gained students"))
 
@@ -57,8 +59,8 @@ mapschools_changes<-ggmap(map_libya)+
   guides(alpha=FALSE) + 
   labs(
     title="School locations and change in students",
-    x = "Latitude",
-    y = "Longitude",
+    x = "Longitude",
+    y = "Latitude",
     subtitle = "Changes in student population by location within Libya",
     color = "Student Changes"
   ) + 
@@ -214,7 +216,7 @@ set_distance<-function(k){
   return(k*1000)
 }
 
-MAX_D<-set_distance(1)
+MAX_D<-set_distance(15)
 
 acled
 events<-acled %>%
@@ -281,9 +283,10 @@ plot_events_for_location(500) +
   theme_few()+
   labs(
     title="Violent Events and Fatalities within 15km of a School",
-    subtitle = "For school i = 500. Value in blue indicates sum of fatalities. Orange points represent incidents of violence",
-    x = "Latitude",
-    y = "Longitude",
+    subtitle = "For school i = 500. Value in blue indicates sum of fatalities. 
+Orange points represent incidents of violence",
+    x = "Longitude",
+    y = "Latitude",
     caption="Data Via REACH and ACLED")
 
 
@@ -313,7 +316,7 @@ locs %>%
     x = "Time",
     y = "Average Student Population",
     color = "Violence within 
-15 km of School"
+5km of School"
   ) + 
   guides(shape=FALSE)+
   scale_color_colorblind(labels = c("No", "Yes"))
@@ -332,11 +335,12 @@ locs_data<-locs %>%
   rename(elementary = Q1_1LevelofSchoolPrimary) %>% 
   mutate(school_levels = high_school+elementary)
 
+ids<-unique(locs_data$id)
+as_tibble(ids)
 
 table(locs_data$Q1_1LevelofSchoolPrimary)
 locs_data %>% 
-  write_csv("reach_libya_dd5km.csv")
-
+  write_csv("reach_libya_dd3km.csv")
 
 
 
@@ -367,19 +371,24 @@ stata_summary(m3c)
 # Boy Models
 
 locs_data_boys<-locs %>%
-  mutate(tx = if_else(total_count == 0, 0, 1)) %>% 
+  mutate(tx_fatal = if_else(total_count == 0, 0, 1)) %>% 
+  mutate(tx_event = if_else(num_events  == 0, 0, 1)) %>% 
   rename(pre = Q2_1NumberofStudentsBoysBefore) %>% 
   rename(post = Q2_1NumberofStudentsBoysNow) %>% 
   gather(key = time, value = students, pre , post) %>% 
   mutate(took_damage= if_else(Q4_3_bWhen==2, 1, 0)) %>% 
-  select(num_events, total_count, tx, time, students, took_damage, Q5_2_aUsedForBefore4, 
+  select(id, num_events, total_count, tx_fatal, tx_event, time, students, took_damage, Q5_2_aUsedForBefore4, 
          QII_1Province, Q1_1LevelofSchoolPrimary, Q1_1LevelofSchoolPrep) %>% 
-  unite("group", c("tx", "time"), remove=FALSE) %>%
   filter(students != 0)%>% 
   rename(high_school = Q1_1LevelofSchoolPrep) %>% 
   rename(elementary = Q1_1LevelofSchoolPrimary) %>% 
   mutate(school_levels = high_school+elementary)
 
+ 
+
+
+locs_data_boys %>% 
+  write_csv("reach_libya_dd5km_boys.csv")
 
 m4<-lm(students~total_count+time+total_count*time, data=locs_data_boys)
 stata_summary(m4)
@@ -401,18 +410,21 @@ stata_summary(m6c)
 
 
 locs_data_girls<-locs %>%
-  mutate(tx = if_else(total_count == 0, 0, 1)) %>% 
+  mutate(tx_fatal = if_else(total_count == 0, 0, 1)) %>% 
+  mutate(tx_event = if_else(num_events  == 0, 0, 1)) %>% 
   rename(pre = Q2_1NumberofStudentsGirlsBefore) %>% 
   rename(post = Q2_1NumberofStudentsGirlsNow) %>% 
   gather(key = time, value = students, pre , post) %>% 
   mutate(took_damage= if_else(Q4_3_bWhen==2, 1, 0)) %>% 
-  select(num_events, total_count, tx, time, students, took_damage, Q5_2_aUsedForBefore4, 
+  select(id, num_events, total_count, tx_fatal, tx_event, time, students, took_damage, Q5_2_aUsedForBefore4, 
          QII_1Province, Q1_1LevelofSchoolPrimary, Q1_1LevelofSchoolPrep) %>% 
-  unite("group", c("tx", "time"), remove=FALSE) %>%
   filter(students != 0)%>% 
   rename(high_school = Q1_1LevelofSchoolPrep) %>% 
   rename(elementary = Q1_1LevelofSchoolPrimary) %>% 
   mutate(school_levels = high_school+elementary)
+
+locs_data_girls %>% 
+  write_csv("reach_libya_dd5km_girls.csv")
 
 m7<-lm(students~total_count+time+total_count*time, data=locs_data_girls)
 stata_summary(m7)
