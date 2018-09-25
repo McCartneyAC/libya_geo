@@ -17,3 +17,8 @@ well. Wait. Can we add all 15 versions of input variable simultaneously and THEN
 this is why I didn't do this during the paper itself.  
 
 Also-- boxplots or whatever won't work with estimates, so you'll have to use some sort of ggplot statistics thing to do it. they're all ugly so be careful.  
+
+
+omg omg omg
+use WWW data to address the question of "why does the population of students in school increase over the course of the war?"
+from B(2005)!!!!!
