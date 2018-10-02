@@ -20,19 +20,25 @@ library(lubridate)
 library(scales)
 library(gridExtra)
 library(ggpubr)
+library(rockchalk)
+library(edlf8360)
+library(ggsci)
+library(mccrr)
+library(lme4)
 library(tidyverse)
 
 
 # Read Data
 
 setwd("V:\\reach_libya") # or your wd
-reach2<-read_xlsx("reach_lby_nationalschoolsassessment_complete_db_reliable__not_reliable_18oct2012.xlsx") 
+reach<-read_xlsx("reach_lby_nationalschoolsassessment_complete_db_reliable__not_reliable_18oct2012.xlsx") 
 acled<-read_csv("2011-01-31-2012-03-01-Libya.csv")
 reach
 reach$Q1_1LevelofSchoolPrimary<-  as.numeric(reach$Q1_1LevelofSchoolPrimary)
 reach$Q1_1LevelofSchoolPrep<-     as.numeric(reach$Q1_1LevelofSchoolPrep)
 reach<-reach %>% 
-  filter(Q1_1LevelofSchoolPrimary+Q1_1LevelofSchoolPrep != 0)
+  # mutate(primary_prep = if_else())
+  filter((Q1_1LevelofSchoolPrimary + Q1_1LevelofSchoolPrep != 0))
 
 reach
 reach3<-read_xlsx("reach_lby_nationalschoolsassessment_complete_db_reliable__not_reliable_18oct2012 (1).xlsx")
@@ -294,6 +300,21 @@ Orange points represent incidents of violence",
 ########################################################################
 # DID ESTIMATION                                                       #
 ########################################################################
+
+model1<-lmer(mathach ~ 1 + (1 | schoolid), data = hsb)
+names(reach)
+# model specification: 
+reach <- reach %>% 
+  mutate(pct_change = (Q2_1NumberofStudentsTotalBefore - Q2_1NumberofStudentsTotalNow)/(Q2_1NumberofStudentsTotalBefore+ 0.1))
+null_model<-lmer(pct_change ~ 1 + (1 | QII_1Province), data = reach)
+edlf8360::icc(null_model)
+
+
+# > edlf8360::icc(null_model)
+# [1] 0.005305178
+# wut.
+
+#####
 locs
 
 locs %>%
