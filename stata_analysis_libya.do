@@ -1,5 +1,5 @@
 cd "V:\reach_libya"
-import delimited reach_libya_dd15km.csv, clear
+import delimited reach_libya_dd7km.csv, clear
 
 
 // THESE DATA AT 15 KM
@@ -1190,6 +1190,23 @@ Linear regression                               Number of obs     =      6,369
 
 
 
+// with walkers
+
+//// fatalities
+gen fatalpost = tx_fatal*time
+table tx_fatal time
+reg students tx_fatal time fatalpost pct_walking_before, vce(cluster id)
+reg students total_count time fatalpost pct_walking_before, vce(cluster id)
+reg students tx_fatal time fatalpost total_count pct_walking_before prov*, vce(cluster id)
+/*
+
+*/
+
+
+
+//// events
+gen eventspost = tx_event*time
+reg students tx_event time eventspost pct_walking_before, vce(cluster id)
 
 
 

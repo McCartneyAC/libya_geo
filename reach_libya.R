@@ -21,10 +21,13 @@ library(scales)
 library(gridExtra)
 library(ggpubr)
 library(rockchalk)
+library(sjstats)
+library(sjPlot)
 library(edlf8360)
 library(ggsci)
 library(mccrr)
 library(lme4)
+library(extrafont); loadfonts()
 library(tidyverse)
 
 
@@ -40,9 +43,28 @@ reach<-reach %>%
   # mutate(primary_prep = if_else())
   filter((Q1_1LevelofSchoolPrimary + Q1_1LevelofSchoolPrep != 0))
 
-reach
+
+reach <- reach %>% 
+  mutate(pct_walking_before = Q2_1_bNumberofStudentsWalkingBefore/Q2_1NumberofStudentsTotalBefore) %>% 
+  mutate(pct_walking_now = Q2_1_bNumberofStudentsWalkingNow / Q2_1NumberofStudentsTotalNow) %>% 
+  mutate(pct_walking_before = if_else(pct_walking_before > 0, pct_walking_before, NA_real_ )) %>% 
+  mutate(pct_walking_now = if_else(pct_walking_now > 0, pct_walking_now, NA_real_))
+
+reach %>% 
+  select(pct_walking_before, pct_walking_now) %>% 
+  head(10)
+hist(reach$pct_walking_before)
+
+reach %>% 
+  select(pct_walking_before, pct_walking_now) %>%
+  filter(pct_walking_before <= 1) %>% 
+  filter(pct_walking_now <= 1) %>% 
+  describe()
+
 reach3<-read_xlsx("reach_lby_nationalschoolsassessment_complete_db_reliable__not_reliable_18oct2012 (1).xlsx")
-table(reach3$RELIABLE)
+table(reach$RELIABLE)
+table(reach$Q1_1LevelofSchoolPrimary)
+table(reach$Q1_1LevelofSchoolPrep)
 
 # initial exploration
 reach$change<-reach$Q2_1NumberofStudentsTotalBefore - reach$Q2_1NumberofStudentsTotalNow
@@ -222,7 +244,7 @@ set_distance<-function(k){
   return(k*1000)
 }
 
-MAX_D<-set_distance(15)
+MAX_D<-set_distance(3)
 
 acled
 events<-acled %>%
@@ -231,12 +253,12 @@ events<-acled %>%
   rename(lat = latitude) %>%
   rename(count = fatalities)
 
-reach
+names(reach)
 locs<-reach %>%
   select(latitude, longitude, id, Q2_1NumberofStudentsTotalBefore, Q2_1NumberofStudentsTotalNow, 
          Q2_1NumberofStudentsBoysBefore,Q2_1NumberofStudentsBoysNow, Q2_1NumberofStudentsGirlsBefore, 
          Q2_1NumberofStudentsGirlsNow, Q4_3Damaged, Q5_2_aUsedForBefore4, QII_1Province, 
-         Q1_1LevelofSchoolPrimary,  Q1_1LevelofSchoolPrep, Q4_3_bWhen) %>%
+         Q1_1LevelofSchoolPrimary,  Q1_1LevelofSchoolPrep, Q4_3_bWhen, pct_walking_before, pct_walking_now) %>%
   rename(lon = latitude) %>%
   rename(lat = longitude) # Some idiot at REACH hates me. 
 
@@ -262,7 +284,7 @@ locs$total_count <- apply(distmatrix,
 # That should be it for the calculation.
 
 # let's see!
-# locs
+locs
 # hist(locs$total_count)
 # describe(locs$total_count)
 
@@ -301,12 +323,11 @@ Orange points represent incidents of violence",
 # DID ESTIMATION                                                       #
 ########################################################################
 
-model1<-lmer(mathach ~ 1 + (1 | schoolid), data = hsb)
 names(reach)
 # model specification: 
 reach <- reach %>% 
   mutate(pct_change = (Q2_1NumberofStudentsTotalBefore - Q2_1NumberofStudentsTotalNow)/(Q2_1NumberofStudentsTotalBefore+ 0.1))
-null_model<-lmer(pct_change ~ 1 + (1 | QII_1Province), data = reach)
+null_model<-lmer(Q2_1NumberofStudentsTotalNow ~ 1 + (1 | QII_1Province), data = reach)
 edlf8360::icc(null_model)
 
 
@@ -331,18 +352,18 @@ locs %>%
              shape=as.factor(tx))) +
   geom_line(aes(group=tx))+
   geom_point(size=2) + 
-  theme_few()+
+  mccrr::theme_textbook()+
   labs(
     title = "Changes in Student Population by Exposure to Violence",
     x = "Time",
     y = "Average Student Population",
     color = "Violence within 
-5km of School"
+3km of School"
   ) + 
   guides(shape=FALSE)+
   scale_color_colorblind(labels = c("No", "Yes"))
 
-locs_data<-locs %>%
+locs_data_3km<-locs %>%
   mutate(tx_fatal = if_else(total_count == 0, 0, 1)) %>% 
   mutate(tx_event = if_else(num_events  == 0, 0, 1)) %>% 
   rename(pre = Q2_1NumberofStudentsTotalBefore) %>% 
@@ -350,7 +371,7 @@ locs_data<-locs %>%
   gather(key = time, value = students, pre , post) %>% 
   mutate(took_damage= if_else(Q4_3_bWhen==2, 1, 0)) %>% 
   select(id, num_events, total_count, tx_fatal, tx_event, time, students, took_damage, Q5_2_aUsedForBefore4, 
-         QII_1Province, Q1_1LevelofSchoolPrimary, Q1_1LevelofSchoolPrep) %>% 
+         QII_1Province, Q1_1LevelofSchoolPrimary, Q1_1LevelofSchoolPrep, pct_walking_before, pct_walking_now) %>% 
   filter(students != 0)%>% 
   rename(high_school = Q1_1LevelofSchoolPrep) %>% 
   rename(elementary = Q1_1LevelofSchoolPrimary) %>% 
@@ -358,8 +379,9 @@ locs_data<-locs %>%
 
 ids<-unique(locs_data$id)
 as_tibble(ids)
-
+view(locs_data)
 table(locs_data$Q1_1LevelofSchoolPrimary)
+
 locs_data %>% 
   write_csv("reach_libya_dd3km.csv")
 
@@ -371,6 +393,8 @@ locs_data %>%
 # genderless models
 m1<-lm(students~total_count+time+total_count*time, data=locs_data)
 stata_summary(m1)
+
+
 m1c<-lm(students~total_count+time+total_count*time + high_school, data=locs_data)
 stata_summary(m1c)
 
@@ -385,7 +409,23 @@ stata_summary(m3)
 m3c<-lm(students~took_damage+time+took_damage*time + high_school, data=locs_data)
 stata_summary(m3c)
 
+# with walkers as covariate
+names(locs_data)
+m_walk1<-lm(students~total_count+time+total_count*time + pct_walking_before , data=locs_data_2km)
 
+# 0.066 marginally significant!
+
+# now for region fixed effects:
+m_walk2<-lm(students~total_count+time+total_count*time + pct_walking_before + factor(QII_1Province), data=locs_data_2km)
+
+
+tab_model(m_walk1, m_walk2)
+
+
+m_walk_mlm2<-lmer(students~total_count+time+total_count*time + pct_walking_before +  (1 | QII_1Province), data=locs_data_2km)
+m_walk_mlm3<-lmer(students~total_count+time+total_count*time + pct_walking_before +  (1 | QII_1Province), data=locs_data_3km)
+m_walk_mlm5<-lmer(students~total_count+time+total_count*time + pct_walking_before +  (1 | QII_1Province), data=locs_data_5km)
+tab_model(m_walk_mlm2,m_walk_mlm5,m_walk_mlm5)
 
 
 ########################
@@ -463,3 +503,43 @@ stata_summary(m9)
 m9c<-lm(students~took_damage+time+took_damage*time + high_school, data=locs_data_girls)
 stata_summary(m9c)
 
+
+
+#############################
+# better data preparation:
+
+MAX_D<-set_distance(7)
+
+# run once
+distmatrix <- distm(locs[,1:2], events[,1:2]) # defaults to using haversine distance
+
+# Save the number of events within MAX_D of each location
+locs$num_events <- apply(distmatrix, 
+                         1, 
+                         function(distvec) length(events[which(distvec < MAX_D),]$count)
+)
+
+# Also save the sum of their counts
+locs$total_count <- apply(distmatrix, 
+                          1, 
+                          function(distvec) sum(events[which(distvec < MAX_D),]$count)
+)
+
+locs_data_7km<-locs %>%
+  mutate(tx_fatal = if_else(total_count == 0, 0, 1)) %>% 
+  mutate(tx_event = if_else(num_events  == 0, 0, 1)) %>% 
+  rename(pre = Q2_1NumberofStudentsTotalBefore) %>% 
+  rename(post = Q2_1NumberofStudentsTotalNow) %>% 
+  gather(key = time, value = students, pre , post) %>% 
+  mutate(took_damage= if_else(Q4_3_bWhen==2, 1, 0)) %>% 
+  select(id, num_events, total_count, tx_fatal, tx_event, time, students, took_damage, Q5_2_aUsedForBefore4, 
+         QII_1Province, Q1_1LevelofSchoolPrimary, Q1_1LevelofSchoolPrep, pct_walking_before, pct_walking_now) %>% 
+  filter(students != 0)%>% 
+  rename(high_school = Q1_1LevelofSchoolPrep) %>% 
+  rename(elementary = Q1_1LevelofSchoolPrimary) %>% 
+  mutate(school_levels = high_school+elementary) %>% 
+  mutate(fatal_ever = ifelse(tx))
+
+locs_data %>% 
+  write_csv("reach_libya_dd7km.csv")
+getwd()
